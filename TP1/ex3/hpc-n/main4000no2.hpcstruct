@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<!DOCTYPE HPCToolkitStructure [
+<!-- ******************************************************************** -->
+<!-- HPCToolkit Structure DTD                                             -->
+<!-- Version 4.6                                                          -->
+<!-- ******************************************************************** -->
+
+<!ELEMENT HPCToolkitStructure (LM)*>
+<!ATTLIST HPCToolkitStructure
+	version CDATA #REQUIRED
+	i       CDATA #REQUIRED
+	n       CDATA #IMPLIED>
+  <!-- Load module: -->
+  <!--   (i)d: unique identifier for cross referencing -->
+  <!--   (n)ame -->
+  <!--   (l)ine range: "beg-end" (inclusive range) -->
+  <!--   (v)ma-range-set: "{[beg-end), [beg-end)...}" -->
+  <!ELEMENT LM (F|P)*>
+  <!ATTLIST LM
+	i CDATA #REQUIRED
+	n CDATA #REQUIRED
+	v CDATA #IMPLIED>
+  <!-- File: -->
+  <!ELEMENT F (P|L|S)*>
+  <!ATTLIST F
+	i CDATA #REQUIRED
+	n CDATA #REQUIRED>
+  <!-- Procedure: ln=link name (if different than name) -->
+  <!ELEMENT P (P|A|L|S|C)*>
+  <!ATTLIST P
+	i  CDATA #REQUIRED
+	n  CDATA #REQUIRED
+	ln CDATA #IMPLIED
+	l  CDATA #IMPLIED
+	v  CDATA #IMPLIED>
+  <!-- Alien: (f)ilename -->
+  <!ELEMENT A (A|L|S|C)*>
+  <!ATTLIST A
+	i CDATA #REQUIRED
+	f CDATA #IMPLIED
+	n CDATA #IMPLIED
+	ln CDATA #IMPLIED
+	l CDATA #IMPLIED
+	v CDATA #IMPLIED>
+  <!-- Loop -->
+  <!ELEMENT L (A|L|S|C)*>
+  <!ATTLIST L
+	i CDATA #REQUIRED
+	l CDATA #REQUIRED
+	f CDATA #IMPLIED
+	v CDATA #IMPLIED>
+  <!-- Statement -->
+  <!ELEMENT S (S)*>
+  <!ATTLIST S
+	i CDATA #REQUIRED
+	l CDATA #REQUIRED
+	v CDATA #IMPLIED>
+  <!-- Callsite (a special Statement) -->
+  <!ELEMENT C EMPTY>
+  <!ATTLIST C
+	i CDATA #REQUIRED
+	l CDATA #REQUIRED
+	v CDATA #IMPLIED>
+]>
+<HPCToolkitStructure i="0" version="4.6" n="">
+<LM i="2" n="/home/vinicius/Documents/Projects/CAD/TP1/ex3/hpc-n/main4000no2" v="{}">
+  <F i="3" n="&lt;unknown file&gt;">
+    <P i="27" n="_Unwind_Resume@plt" l="0" v="{[0x400fb0-0x400fc0)}">
+      <S i="74" l="0" v="{[0x400fb0-0x400fb6)}"/>
+    </P>
+    <P i="23" n="_ZNSo9_M_insertIdEERSoT_@plt" l="0" v="{[0x400f60-0x400f70)}">
+      <S i="70" l="0" v="{[0x400f60-0x400f66)}"/>
+    </P>
+    <P i="20" n="_ZNSt13basic_fstreamIcSt11char_traitsIcEE4openERKNSt7__cxx1112basic_stringIcS1_SaIcEEESt13_Ios_Openmode@plt" l="0" v="{[0x400f30-0x400f40)}">
+      <S i="67" l="0" v="{[0x400f30-0x400f36)}"/>
+    </P>
+    <P i="12" n="_ZNSt13basic_fstreamIcSt11char_traitsIcEE5closeEv@plt" l="0" v="{[0x400ea0-0x400eb0)}">
+      <S i="59" l="0" v="{[0x400ea0-0x400ea6)}"/>
+    </P>
+    <P i="17" n="_ZNSt13basic_fstreamIcSt11char_traitsIcEEC1Ev@plt" l="0" v="{[0x400f00-0x400f10)}">
+      <S i="64" l="0" v="{[0x400f00-0x400f06)}"/>
+    </P>
+    <P i="14" n="_ZNSt13basic_fstreamIcSt11char_traitsIcEED1Ev@plt" l="0" v="{[0x400ec0-0x400ed0)}">
+      <S i="61" l="0" v="{[0x400ec0-0x400ec6)}"/>
+    </P>
+    <P i="25" n="_ZNSt6chrono3_V212steady_clock3nowEv@plt" l="0" v="{[0x400f80-0x400f90)}">
+      <S i="72" l="0" v="{[0x400f80-0x400f86)}"/>
+    </P>
+    <P i="15" n="_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6assignEPKc@plt" l="0" v="{[0x400ed0-0x400ee0)}">
+      <S i="62" l="0" v="{[0x400ed0-0x400ed6)}"/>
+    </P>
+    <P i="22" n="_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcm@plt" l="0" v="{[0x400f50-0x400f60)}">
+      <S i="69" l="0" v="{[0x400f50-0x400f56)}"/>
+    </P>
+    <P i="8" n="_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERmm@plt" l="0" v="{[0x400e50-0x400e60)}">
+      <S i="55" l="0" v="{[0x400e50-0x400e56)}"/>
+    </P>
+    <P i="9" n="_ZNSt8ios_base4InitC1Ev@plt" l="0" v="{[0x400e60-0x400e70)}">
+      <S i="56" l="0" v="{[0x400e60-0x400e66)}"/>
+    </P>
+    <P i="16" n="_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@plt" l="0" v="{[0x400ee0-0x400ef0)}">
+      <S i="63" l="0" v="{[0x400ee0-0x400ee6)}"/>
+    </P>
+    <P i="5" n="_ZSt20__throw_length_errorPKc@plt" l="0" v="{[0x400e20-0x400e30)}">
+      <S i="52" l="0" v="{[0x400e20-0x400e26)}"/>
+    </P>
+    <P i="24" n="_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_@plt" l="0" v="{[0x400f70-0x400f80)}">
+      <S i="71" l="0" v="{[0x400f70-0x400f76)}"/>
+    </P>
+    <P i="21" n="_ZdaPv@plt" l="0" v="{[0x400f40-0x400f50)}">
+      <S i="68" l="0" v="{[0x400f40-0x400f46)}"/>
+    </P>
+    <P i="7" n="_ZdlPv@plt" l="0" v="{[0x400e40-0x400e50)}">
+      <S i="54" l="0" v="{[0x400e40-0x400e46)}"/>
+    </P>
+    <P i="6" n="_Znam@plt" l="0" v="{[0x400e30-0x400e40)}">
+      <S i="53" l="0" v="{[0x400e30-0x400e36)}"/>
+    </P>
+    <P i="11" n="__cxa_atexit@plt" l="0" v="{[0x400e80-0x400e90)}">
+      <S i="58" l="0" v="{[0x400e80-0x400e86)}"/>
+    </P>
+    <P i="43" n="__libc_csu_fini" l="0" v="{[0x401840-0x401842)}">
+      <S i="573" l="0" v="{[0x401840-0x401842)}"/>
+    </P>
+    <P i="42" n="__libc_csu_init" l="0" v="{[0x4017d0-0x401840)}">
+      <L i="565" l="0" v="{[0x401810-0x401811)}" f="">
+        <S i="566" l="0" v="{[0x4017d0-0x401835)}"/>
+      </L>
+    </P>
+    <P i="10" n="__libc_start_main@plt" l="0" v="{[0x400e70-0x400e80)}">
+      <S i="57" l="0" v="{[0x400e70-0x400e76)}"/>
+    </P>
+    <P i="18" n="__stack_chk_fail@plt" l="0" v="{[0x400f10-0x400f20)}">
+      <S i="65" l="0" v="{[0x400f10-0x400f16)}"/>
+    </P>
+    <P i="44" n="_fini" l="0" v="{[0x401844-0x40184d)}">
+      <S i="574" l="0" v="{[0x401844-0x40184d)}"/>
+    </P>
+    <P i="4" n="_init" l="0" v="{[0x400de8-0x400e02)}">
+      <S i="45" l="0" v="{[0x400de8-0x400e02)}"/>
+    </P>
+    <P i="34" n="_start" l="0" v="{[0x4014b0-0x4014e0)}">
+      <S i="349" l="0" v="{[0x4014b0-0x4014da)}"/>
+    </P>
+    <P i="31" n="main" l="0" v="{[0x400ff0-0x401480)}">
+      <L i="263" l="0" v="{[0x401074-0x401075)}" f="">
+        <S i="264" l="0" v="{[0x401074-0x401079)}"/>
+        <S i="265" l="0" v="{[0x401079-0x40107e)}"/>
+        <S i="266" l="0" v="{[0x40107e-0x401083)}"/>
+        <S i="267" l="0" v="{[0x401083-0x401088)}"/>
+        <S i="268" l="0" v="{[0x401088-0x40108d)}"/>
+        <S i="269" l="0" v="{[0x40108d-0x401091)}"/>
+        <S i="270" l="0" v="{[0x401091-0x401096)}"/>
+        <S i="271" l="0" v="{[0x401096-0x40109b)}"/>
+        <S i="272" l="0" v="{[0x40109b-0x40109f)}"/>
+        <S i="273" l="0" v="{[0x40109f-0x4010a2)}"/>
+        <S i="274" l="0" v="{[0x4010a2-0x4010a8)}"/>
+        <L i="278" l="0" v="{[0x4010a8-0x4010a9)}" f="">
+          <S i="279" l="0" v="{[0x4010a8-0x4010ad)}"/>
+          <S i="280" l="0" v="{[0x4010ad-0x4010af)}"/>
+          <S i="281" l="0" v="{[0x4010af-0x4010b2)}"/>
+          <S i="282" l="0" v="{[0x4010b2-0x4010b4)}"/>
+          <S i="283" l="0" v="{[0x4010b4-0x4010b7)}"/>
+          <S i="284" l="0" v="{[0x4010b7-0x4010ba)}"/>
+          <S i="285" l="0" v="{[0x4010ba-0x4010bc)}"/>
+          <S i="286" l="0" v="{[0x4010bc-0x4010c1)}"/>
+          <S i="287" l="0" v="{[0x4010c1-0x4010c7)}"/>
+          <S i="288" l="0" v="{[0x4010c7-0x4010c9)}"/>
+          <S i="289" l="0" v="{[0x4010c9-0x4010cd)}"/>
+          <S i="290" l="0" v="{[0x4010cd-0x4010d1)}"/>
+          <S i="291" l="0" v="{[0x4010d1-0x4010d5)}"/>
+          <S i="292" l="0" v="{[0x4010d5-0x4010d9)}"/>
+          <S i="293" l="0" v="{[0x4010d9-0x4010e0)}"/>
+          <S i="294" l="0" v="{[0x4010e0-0x4010e2)}"/>
+        </L>
+        <S i="275" l="0" v="{[0x4010e2-0x4010e6)}"/>
+        <S i="276" l="0" v="{[0x4010e6-0x4010ed)}"/>
+        <S i="277" l="0" v="{[0x4010ed-0x4010ef)}"/>
+      </L>
+      <L i="295" l="0" v="{[0x401108-0x401109)}" f="">
+        <L i="301" l="0" v="{[0x401110-0x401111)}" f="">
+          <L i="312" l="0" v="{[0x401130-0x401131)}" f="">
+            <S i="313" l="0" v="{[0x400ff0-0x401074) [0x4010ef-0x4013b8) [0x4013ff-0x401473)}"/>
+          </L>
+        </L>
+      </L>
+      <L i="321" l="0" v="{[0x4013b8-0x4013b9)}" f="">
+        <L i="326" l="0" v="{[0x4013e4-0x4013e5)}" f="">
+          <S i="327" l="0" v="{[0x4013b8-0x4013ff)}"/>
+        </L>
+      </L>
+    </P>
+    <P i="28" n="memcpy@plt" l="0" v="{[0x400fc0-0x400fd0)}">
+      <S i="75" l="0" v="{[0x400fc0-0x400fc6)}"/>
+    </P>
+    <P i="30" n="plt.got" ln=".plt.got" l="0" v="{[0x400fe0-0x400fe8)}">
+      <S i="77" l="0" v="{[0x400fe0-0x400fe6)}"/>
+    </P>
+    <P i="26" n="rand@plt" l="0" v="{[0x400f90-0x400fa0)}">
+      <S i="73" l="0" v="{[0x400f90-0x400f96)}"/>
+    </P>
+    <P i="19" n="srand@plt" l="0" v="{[0x400f20-0x400f30)}">
+      <S i="66" l="0" v="{[0x400f20-0x400f26)}"/>
+    </P>
+    <P i="40" n="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; __gnu_cxx::__to_xstring&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;, char&gt;(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...)" ln="_ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_P13__va_list_tagEmSB_z" l="0" v="{[0x4015b0-0x401730)}">
+      <S i="413" l="0" v="{[0x4015b0-0x4016b7) [0x4016c0-0x4016fc) [0x401700-0x401714) [0x401718-0x401722)}"/>
+    </P>
+    <P i="41" n="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; std::operator+&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;&amp;&amp;, char const*)" ln="_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEOS8_PKS5_" l="0" v="{[0x401730-0x4017d0)}">
+      <S i="496" l="0" v="{[0x401730-0x4017a3) [0x4017a8-0x4017c4)}"/>
+    </P>
+    <P i="13" n="strlen@plt" l="0" v="{[0x400eb0-0x400ec0)}">
+      <S i="60" l="0" v="{[0x400eb0-0x400eb6)}"/>
+    </P>
+    <P i="29" n="time@plt" l="0" v="{[0x400fd0-0x400fe0)}">
+      <S i="76" l="0" v="{[0x400fd0-0x400fd6)}"/>
+    </P>
+  </F>
+  <F i="35" n="crtstuff.c">
+    <P i="38" n="__do_global_dtors_aux" l="0" v="{[0x401560-0x401580)}">
+      <S i="393" l="0" v="{[0x401560-0x40157c)}"/>
+    </P>
+    <P i="36" n="deregister_tm_clones" l="0" v="{[0x4014e0-0x401520)}">
+      <S i="361" l="0" v="{[0x4014e0-0x401507) [0x401510-0x401512)}"/>
+    </P>
+    <P i="39" n="frame_dummy" l="0" v="{[0x401580-0x4015b0)}">
+      <S i="401" l="0" v="{[0x401580-0x40158d) [0x401590-0x4015a6)}"/>
+    </P>
+    <P i="37" n="register_tm_clones" l="0" v="{[0x401520-0x401560)}">
+      <S i="375" l="0" v="{[0x401520-0x401555) [0x401558-0x40155a)}"/>
+    </P>
+  </F>
+  <F i="32" n="main.cpp">
+    <P i="33" n="_GLOBAL__sub_I_main" l="0" v="{[0x401480-0x4014b0)}">
+      <S i="341" l="0" v="{[0x401480-0x4014a6)}"/>
+    </P>
+  </F>
+</LM>
+</HPCToolkitStructure>

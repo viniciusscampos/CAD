@@ -6,16 +6,16 @@
 
 using namespace std;
 
+#ifndef N
+	#define N 1000
+#endif
+
 int main(int argc, char** argv) {
 
 	//getting time for the start of the program
 	auto firstTime = chrono::steady_clock::now();
 
-	//catching the matrix size
-	const string argument1 = argv[1];
-	int N = stoi(argument1);
-	
-	const string argument2 = argv[2];	
+	string tipo;
 
 	srand(time(NULL));
 
@@ -39,7 +39,8 @@ int main(int argc, char** argv) {
 	auto secondTime = chrono::steady_clock::now();
 
 	//matrix multiplication with normal approach
-	if(argument2 == "n"){
+	#ifndef INVERTED
+		tipo = "n";
 		for(int j=0; j< N; j++){
 			for(int i=0; i<N; i++){
 				C[i][j] = 0;
@@ -48,9 +49,11 @@ int main(int argc, char** argv) {
 				}
 			}
 		}
-	}
-	//matrix multiplication with inverted approach
-	else if(argument2 == "i"){
+
+	#else
+		//matrix multiplication with inverted approach
+		tipo = "i";
+		#ifndef BLOCK
 		for(int i=0; i< N; i++){
 			for(int j=0; j<N; j++){
 				C[i][j] = 0;
@@ -59,7 +62,26 @@ int main(int argc, char** argv) {
 				}
 			}
 		}
-	}
+		#else
+		for(int i=0; i< N; i+= BLOCK){
+			for(int j=0; j<N; j+= BLOCK){
+				C[i][j] = 0;
+				for(int k=0; k<N; k+=BLOCK){
+					const int imax = min(N,i+BLOCK);
+					const int jmax = min(N,j+BLOCK);
+					const int kmax = min(N,k+BLOCK);
+					for(int ii=i; ii<imax; ii++){
+						for(int jj = j; jj<jmax; jj++){
+							for(int kk=k; kk<kmax; kk++){
+								C[ii][jj]= C[ii][jj] + A[jj][kk]*B[kk][ii];
+							}
+						}
+					}
+				}
+			}
+		}	
+		#endif	
+	#endif
 
 
 	//get the time for the end of the activity
@@ -67,7 +89,11 @@ int main(int argc, char** argv) {
 	delete[] A;
 	delete[] B;
 	delete[] C;
-	string fileName = argument1+"-"+argument2+".txt";
+	#ifndef BLOCK
+		string fileName = to_string(N) +"-"+tipo+".txt";
+	#else
+		string fileName = to_string(N) +"-"+tipo+ "-" + to_string(BLOCK) +".txt";
+	#endif
 	fstream fs;
 	fs.open(fileName, fstream::in | fstream::out | fstream::app);
 	fs << "Tempo de execução total: " <<std::chrono::duration<double, std::milli>(lastTime - firstTime).count() << endl;

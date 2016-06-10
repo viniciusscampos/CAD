@@ -1,0 +1,1436 @@
+[1147, N]: SYSTEM_SERVER: warning: memory usage: 52 Meg
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8f8 (0xa8f8), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba67f6e06 (0x24e06), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/libhpcrun.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53df4f1 (0x184f1), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebad4 (0x24ad4), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba25 (0x24a25), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba53eb904 (0x24904), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba53eb931 (0x24931), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc92a (0xa92a), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e4 (0xa8e4), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba53df1bf (0x181bf), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebad4 (0x24ad4), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba53eb8e1 (0x248e1), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8f8 (0xa8f8), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba6a3cae0 (0x13ae0), load module = /lib/x86_64-linux-gnu/ld-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba67f6e22 (0x24e22), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/libhpcrun.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53df4f1 (0x184f1), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebad4 (0x24ad4), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba53eb910 (0x24910), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba67eae70 (0x18e70), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/libhpcrun.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba67f6e9e (0x24e9e), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/libhpcrun.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53df4f1 (0x184f1), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebad4 (0x24ad4), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba25 (0x24a25), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba25 (0x24a25), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba25 (0x24a25), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba67f6e06 (0x24e06), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/libhpcrun.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53df4f1 (0x184f1), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebad4 (0x24ad4), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba25 (0x24a25), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba25 (0x24a25), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba6a3caf0 (0x13af0), load module = /lib/x86_64-linux-gnu/ld-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eb8d7 (0x248d7), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba6a3cae0 (0x13ae0), load module = /lib/x86_64-linux-gnu/ld-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eb8d7 (0x248d7), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba25 (0x24a25), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba53eb8fa (0x248fa), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba53eb95e (0x2495e), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e4 (0xa8e4), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba6a3caf0 (0x13af0), load module = /lib/x86_64-linux-gnu/ld-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eb8d7 (0x248d7), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba67f6e06 (0x24e06), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/libhpcrun.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53df4f1 (0x184f1), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebad4 (0x24ad4), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba6a3cae0 (0x13ae0), load module = /lib/x86_64-linux-gnu/ld-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eb8d7 (0x248d7), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba25 (0x24a25), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba25 (0x24a25), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba25 (0x24a25), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba53eb8a0 (0x248a0), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba53ebab1 (0x24ab1), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba25 (0x24a25), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba25 (0x24a25), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5c804a7 (0x354a7), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47b10 (0xfcb10), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba6a (0x24a6a), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba53eb8fa (0x248fa), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba25 (0x24a25), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba6a3cae0 (0x13ae0), load module = /lib/x86_64-linux-gnu/ld-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eb8d7 (0x248d7), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba25 (0x24a25), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba25 (0x24a25), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba6a3caf8 (0x13af8), load module = /lib/x86_64-linux-gnu/ld-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba67e8eaf (0x16eaf), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/libhpcrun.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bc9b2 (0xa9b2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba6a3caf8 (0x13af8), load module = /lib/x86_64-linux-gnu/ld-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba67e8eaf (0x16eaf), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/libhpcrun.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bc9b2 (0xa9b2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba25 (0x24a25), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba6a3caf0 (0x13af0), load module = /lib/x86_64-linux-gnu/ld-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eb8d7 (0x248d7), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba53eb8a2 (0x248a2), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba67f6db7 (0x24db7), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/libhpcrun.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba67e8ed9 (0x16ed9), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/libhpcrun.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bc9b2 (0xa9b2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba67f6db7 (0x24db7), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/libhpcrun.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba67e8ed9 (0x16ed9), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/libhpcrun.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bc9b2 (0xa9b2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba67f6e06 (0x24e06), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/libhpcrun.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53df4f1 (0x184f1), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebad4 (0x24ad4), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba53df1b4 (0x181b4), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebad4 (0x24ad4), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba67eae77 (0x18e77), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/libhpcrun.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba67f6e9e (0x24e9e), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/libhpcrun.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53df4f1 (0x184f1), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebad4 (0x24ad4), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc92a (0xa92a), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba67e8f46 (0x16f46), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/libhpcrun.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bc9b2 (0xa9b2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba67e8f46 (0x16f46), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/libhpcrun.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bc9b2 (0xa9b2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba53d4590 (0xd590), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eb8d7 (0x248d7), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e4 (0xa8e4), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc9d0 (0xa9d0), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba6a3cae0 (0x13ae0), load module = /lib/x86_64-linux-gnu/ld-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eb8d7 (0x248d7), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba25 (0x24a25), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53eba25 (0x24a25), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba53df201 (0x18201), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebad4 (0x24ad4), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba5d47687 (0xfc687), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebae9 (0x24ae9), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba65bc8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+[1147, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[1147, N]: NULL (0): ip = 0x7fcba67f6e06 (0x24e06), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/libhpcrun.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53df4f1 (0x184f1), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba53ebad4 (0x24ad4), load module = /home/vinicius/local/papi/lib/libpapi.so.5.4.3.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba65bcacb (0xaacb), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[1147, N]: NULL (0): ip = 0x7fcba5c804a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[1147, N]: -- end backtrace ------------------------------------
+
+MEMORY: segment size: 4.0 meg, num segments: 1, total allocation: 4.0 meg, reclaims: 0
+MEMORY: total freeable: 0.0 meg, total non-freeable: 0.0 meg, malloc failures: 0
+SAMPLE ANOMALIES: blocks: 219 (async: 219, dlopen: 0), errors: 363 (segv: 0, soft: 363)
+SUMMARY: samples: 268039 (recorded: 267820, blocked: 219, errant: 363, trolled: 0, yielded: 0),
+         frames: 534954 (trolled: 0)
+         intervals: 313 (suspicious: 0)

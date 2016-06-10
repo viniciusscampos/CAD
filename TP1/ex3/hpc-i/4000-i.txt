@@ -1,0 +1,6 @@
+Tempo de execução total: 587795
+Tempo de multiplicação: 587617
+Tempo de execução total: 653809
+Tempo de multiplicação: 653499
+Tempo de execução total: 460330
+Tempo de multiplicação: 460030
