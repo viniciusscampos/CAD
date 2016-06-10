@@ -1,0 +1,450 @@
+<?xml version="1.0"?>
+<!DOCTYPE HPCToolkitStructure [
+<!-- ******************************************************************** -->
+<!-- HPCToolkit Structure DTD                                             -->
+<!-- Version 4.6                                                          -->
+<!-- ******************************************************************** -->
+
+<!ELEMENT HPCToolkitStructure (LM)*>
+<!ATTLIST HPCToolkitStructure
+	version CDATA #REQUIRED
+	i       CDATA #REQUIRED
+	n       CDATA #IMPLIED>
+  <!-- Load module: -->
+  <!--   (i)d: unique identifier for cross referencing -->
+  <!--   (n)ame -->
+  <!--   (l)ine range: "beg-end" (inclusive range) -->
+  <!--   (v)ma-range-set: "{[beg-end), [beg-end)...}" -->
+  <!ELEMENT LM (F|P)*>
+  <!ATTLIST LM
+	i CDATA #REQUIRED
+	n CDATA #REQUIRED
+	v CDATA #IMPLIED>
+  <!-- File: -->
+  <!ELEMENT F (P|L|S)*>
+  <!ATTLIST F
+	i CDATA #REQUIRED
+	n CDATA #REQUIRED>
+  <!-- Procedure: ln=link name (if different than name) -->
+  <!ELEMENT P (P|A|L|S|C)*>
+  <!ATTLIST P
+	i  CDATA #REQUIRED
+	n  CDATA #REQUIRED
+	ln CDATA #IMPLIED
+	l  CDATA #IMPLIED
+	v  CDATA #IMPLIED>
+  <!-- Alien: (f)ilename -->
+  <!ELEMENT A (A|L|S|C)*>
+  <!ATTLIST A
+	i CDATA #REQUIRED
+	f CDATA #IMPLIED
+	n CDATA #IMPLIED
+	ln CDATA #IMPLIED
+	l CDATA #IMPLIED
+	v CDATA #IMPLIED>
+  <!-- Loop -->
+  <!ELEMENT L (A|L|S|C)*>
+  <!ATTLIST L
+	i CDATA #REQUIRED
+	l CDATA #REQUIRED
+	f CDATA #IMPLIED
+	v CDATA #IMPLIED>
+  <!-- Statement -->
+  <!ELEMENT S (S)*>
+  <!ATTLIST S
+	i CDATA #REQUIRED
+	l CDATA #REQUIRED
+	v CDATA #IMPLIED>
+  <!-- Callsite (a special Statement) -->
+  <!ELEMENT C EMPTY>
+  <!ATTLIST C
+	i CDATA #REQUIRED
+	l CDATA #REQUIRED
+	v CDATA #IMPLIED>
+]>
+<HPCToolkitStructure i="0" version="4.6" n="">
+<LM i="2" n="/home/vinicius/Documents/UFRJ/CAD/TP1/ex2/stream-32000000/stream32000000" v="{}">
+  <F i="17" n="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+    <P i="21" n="main" l="209-380" v="{[0x400bd5-0x401090)}">
+      <S i="429" l="210" v="{[0x400bd5-0x400bf3)}"/>
+      <A i="589" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="220" v="{}">
+        <A i="590" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="591" l="104" v="{[0x400bf3-0x400bfd)}"/>
+        </A>
+      </A>
+      <A i="593" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="221" v="{}">
+        <A i="594" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="595" l="104" v="{[0x400bfd-0x400c07)}"/>
+        </A>
+      </A>
+      <A i="597" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="222" v="{}">
+        <A i="598" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="599" l="104" v="{[0x400c07-0x400c11)}"/>
+        </A>
+      </A>
+      <A i="601" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="224" v="{}">
+        <A i="602" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="603" l="104" v="{[0x400c11-0x400c2a)}"/>
+        </A>
+      </A>
+      <A i="608" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="227" v="{}">
+        <A i="609" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="610" l="104" v="{[0x400c2a-0x400c34)}"/>
+        </A>
+      </A>
+      <A i="612" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="236" v="{}">
+        <A i="613" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="614" l="104" v="{[0x400c34-0x400c52)}"/>
+        </A>
+      </A>
+      <A i="620" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="237" v="{}">
+        <A i="621" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="622" l="104" v="{[0x400c52-0x400c76)}"/>
+        </A>
+      </A>
+      <A i="628" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="240" v="{}">
+        <A i="629" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="630" l="104" v="{[0x400c76-0x400c9a)}"/>
+        </A>
+      </A>
+      <A i="636" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="243" v="{}">
+        <A i="637" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="638" l="104" v="{[0x400c9a-0x400cb3)}"/>
+        </A>
+      </A>
+      <A i="643" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="244" v="{}">
+        <A i="644" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="645" l="104" v="{[0x400cb3-0x400cbd)}"/>
+        </A>
+      </A>
+      <A i="647" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="245" v="{}">
+        <A i="648" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="649" l="104" v="{[0x400cbd-0x400ccc)}"/>
+        </A>
+      </A>
+      <L i="468" l="269" v="{[0x400ce0-0x400ce1)}" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+        <S i="473" l="269" v="{[0x400cfc-0x400d04)}"/>
+        <S i="469" l="270" v="{[0x400ccc-0x400cd4) [0x400ce0-0x400ce8)}"/>
+        <S i="470" l="271" v="{[0x400cd4-0x400cdc) [0x400ce8-0x400cf0)}"/>
+        <S i="471" l="272" v="{[0x400cdc-0x400ce0) [0x400cf0-0x400cfc)}"/>
+      </L>
+      <A i="652" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="275" v="{}">
+        <A i="653" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="654" l="104" v="{[0x400d04-0x400d0e)}"/>
+        </A>
+      </A>
+      <S i="439" l="277" v="{[0x400d0e-0x400d1e)}"/>
+      <A i="656" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="278" v="{}">
+        <A i="657" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="658" l="104" v="{[0x400d1e-0x400d36)}"/>
+        </A>
+      </A>
+      <A i="664" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="281" v="{}">
+        <A i="665" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="666" l="104" v="{[0x400d36-0x400d40)}"/>
+        </A>
+      </A>
+      <S i="444" l="283" v="{[0x400d40-0x400d45)}"/>
+      <S i="445" l="286" v="{[0x400d45-0x400d5f)}"/>
+      <L i="475" l="288" v="{[0x400d5f-0x400d60)}" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+        <S i="480" l="288" v="{[0x400d6f-0x400d74)}"/>
+        <S i="476" l="289" v="{[0x400d5f-0x400d6f)}"/>
+      </L>
+      <S i="450" l="290" v="{[0x400d74-0x400d8c)}"/>
+      <A i="668" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="292" v="{}">
+        <A i="669" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="670" l="104" v="{[0x400d8c-0x400daa)}"/>
+        </A>
+      </A>
+      <A i="676" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="294" v="{}">
+        <A i="677" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="678" l="104" v="{[0x400daa-0x400dd4)}"/>
+        </A>
+      </A>
+      <A i="687" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="295" v="{}">
+        <A i="688" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="689" l="104" v="{[0x400dd4-0x400dde)}"/>
+        </A>
+      </A>
+      <A i="691" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="296" v="{}">
+        <A i="692" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="693" l="104" v="{[0x400dde-0x400de8)}"/>
+        </A>
+      </A>
+      <A i="695" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="298" v="{}">
+        <A i="696" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="697" l="104" v="{[0x400de8-0x400df2)}"/>
+        </A>
+      </A>
+      <A i="699" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="300" v="{}">
+        <A i="700" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="701" l="104" v="{[0x400df2-0x400dfc)}"/>
+        </A>
+      </A>
+      <A i="703" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="301" v="{}">
+        <A i="704" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="705" l="104" v="{[0x400dfc-0x400e06)}"/>
+        </A>
+      </A>
+      <A i="707" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="302" v="{}">
+        <A i="708" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="709" l="104" v="{[0x400e06-0x400e10)}"/>
+        </A>
+      </A>
+      <A i="711" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="303" v="{}">
+        <A i="712" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="713" l="104" v="{[0x400e10-0x400e23)}"/>
+        </A>
+      </A>
+      <L i="482" l="308" v="{[0x400e23-0x400e24)}" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+        <S i="517" l="308" v="{[0x400f67-0x400f77)}"/>
+        <S i="483" l="310" v="{[0x400e23-0x400e3b)}"/>
+        <L i="519" l="315" v="{[0x400e3b-0x400e3c)}" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+          <S i="523" l="315" v="{[0x400e4f-0x400e57)}"/>
+          <S i="520" l="316" v="{[0x400e3b-0x400e4f)}"/>
+        </L>
+        <S i="488" l="318" v="{[0x400e57-0x400e6b)}"/>
+        <S i="492" l="320" v="{[0x400e6b-0x400e80)}"/>
+        <L i="525" l="325" v="{[0x400e80-0x400e81)}" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+          <S i="530" l="325" v="{[0x400e9c-0x400ea4)}"/>
+          <S i="526" l="326" v="{[0x400e80-0x400e9c)}"/>
+        </L>
+        <S i="496" l="328" v="{[0x400ea4-0x400eb9)}"/>
+        <S i="500" l="330" v="{[0x400eb9-0x400ece)}"/>
+        <L i="532" l="335" v="{[0x400ece-0x400ecf)}" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+          <S i="537" l="335" v="{[0x400eea-0x400ef2)}"/>
+          <S i="533" l="336" v="{[0x400ece-0x400eea)}"/>
+        </L>
+        <S i="504" l="338" v="{[0x400ef2-0x400f0a)}"/>
+        <S i="508" l="340" v="{[0x400f0a-0x400f1f)}"/>
+        <L i="539" l="345" v="{[0x400f1f-0x400f20)}" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+          <S i="545" l="345" v="{[0x400f43-0x400f4b)}"/>
+          <S i="540" l="346" v="{[0x400f1f-0x400f43)}"/>
+        </L>
+        <S i="512" l="348" v="{[0x400f4b-0x400f67)}"/>
+      </L>
+      <L i="547" l="353" v="{[0x400fce-0x400fcf)}" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+        <A i="551" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="&lt;inline&gt;" l="340" v="{}">
+          <S i="552" l="340" v="{[0x400fce-0x400fd8)}"/>
+        </A>
+        <S i="549" l="353" v="{[0x400fc9-0x400fce)}"/>
+        <L i="555" l="355" v="{[0x400f77-0x400f78)}" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+          <S i="568" l="355" v="{[0x400fbf-0x400fc9)}"/>
+          <S i="556" l="357" v="{[0x400f77-0x400f8f)}"/>
+          <S i="560" l="358" v="{[0x400f8f-0x400fa3)}"/>
+          <S i="563" l="359" v="{[0x400fa3-0x400fbf)}"/>
+        </L>
+      </L>
+      <A i="717" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="363" v="{}">
+        <A i="718" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="719" l="104" v="{[0x400fd8-0x400fe7)}"/>
+        </A>
+      </A>
+      <L i="570" l="364" v="{[0x400fe7-0x400fe8)}" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+        <S i="575" l="364" v="{[0x401042-0x401048)}"/>
+        <S i="571" l="365" v="{[0x400fe7-0x400fff)}"/>
+        <A i="577" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="367" v="{}">
+          <A i="578" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+            <S i="579" l="104" v="{[0x401007-0x401042)}"/>
+          </A>
+        </A>
+        <S i="574" l="368" v="{[0x400fff-0x401007)}"/>
+      </L>
+      <A i="722" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="373" v="{}">
+        <A i="723" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="724" l="104" v="{[0x401048-0x401052)}"/>
+        </A>
+      </A>
+      <S i="456" l="376" v="{[0x401052-0x40105c)}"/>
+      <A i="726" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="377" v="{}">
+        <A i="727" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="728" l="104" v="{[0x40105c-0x401066)}"/>
+        </A>
+      </A>
+      <S i="458" l="380" v="{[0x401066-0x40108f)}"/>
+    </P>
+    <P i="19" n="checktick" l="385-412" v="{[0x4006a3-0x400767)}">
+      <S i="121" l="386" v="{[0x4006a3-0x4006cb)}"/>
+      <L i="141" l="392" v="{[0x4006cb-0x4006cc)}" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+        <S i="147" l="392" v="{[0x400705-0x400714)}"/>
+        <S i="142" l="393" v="{[0x4006cb-0x4006db)}"/>
+        <L i="149" l="394" v="{[0x4006db-0x4006dc)}" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+          <S i="150" l="394" v="{[0x4006db-0x4006fd)}"/>
+        </L>
+        <S i="145" l="396" v="{[0x4006fd-0x400705)}"/>
+      </L>
+      <L i="157" l="406" v="{[0x400721-0x400722)}" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+        <S i="167" l="406" v="{[0x400740-0x400745)}"/>
+        <S i="158" l="408" v="{[0x400714-0x400740)}"/>
+      </L>
+      <S i="133" l="412" v="{[0x400745-0x400767)}"/>
+    </P>
+    <P i="18" n="mysecond" l="421-429" v="{[0x400646-0x4006a3)}">
+      <S i="102" l="422" v="{[0x400646-0x40065a)}"/>
+      <S i="106" l="427" v="{[0x40065a-0x400667)}"/>
+      <S i="109" l="428" v="{[0x400667-0x400689)}"/>
+      <S i="115" l="429" v="{[0x400689-0x4006a3)}"/>
+    </P>
+    <P i="20" n="checkSTREAMresults" l="434-550" v="{[0x400767-0x400bd5)}">
+      <S i="169" l="435" v="{[0x400767-0x400771)}"/>
+      <S i="172" l="448" v="{[0x400771-0x40077e)}"/>
+      <L i="259" l="451" v="{[0x400786-0x400787)}" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+        <S i="270" l="451" v="{[0x4007b4-0x4007ca)}"/>
+        <S i="260" l="454" v="{[0x40077e-0x400799)}"/>
+        <S i="264" l="455" v="{[0x400799-0x4007a3)}"/>
+        <S i="266" l="456" v="{[0x4007a3-0x4007b4)}"/>
+      </L>
+      <L i="272" l="463" v="{[0x4007e9-0x4007ea)}" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+        <S i="292" l="463" v="{[0x400842-0x40084a)}"/>
+        <S i="273" l="464" v="{[0x4007ca-0x4007d7) [0x4007e9-0x400805)}"/>
+        <S i="279" l="465" v="{[0x4007d7-0x4007e0) [0x400805-0x400822)}"/>
+        <S i="285" l="466" v="{[0x4007e0-0x4007e9) [0x400822-0x400842)}"/>
+      </L>
+      <S i="185" l="469" v="{[0x40084a-0x40085c)}"/>
+      <S i="188" l="470" v="{[0x40085c-0x400866)}"/>
+      <S i="190" l="471" v="{[0x400866-0x400870)}"/>
+      <S i="198" l="484" v="{[0x40088f-0x400894)}"/>
+      <S i="192" l="485" v="{[0x400870-0x40088f) [0x400894-0x4008a2)}"/>
+      <S i="212" l="486" v="{[0x40096e-0x400975)}"/>
+      <A i="333" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="487" v="{}">
+        <A i="334" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="335" l="104" v="{[0x4008a2-0x4008be)}"/>
+        </A>
+      </A>
+      <A i="340" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="488" v="{}">
+        <A i="341" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="342" l="104" v="{[0x4008de-0x40090f)}"/>
+        </A>
+      </A>
+      <S i="201" l="488" v="{[0x4008be-0x4008de)}"/>
+      <S i="207" l="489" v="{[0x40090f-0x400914)}"/>
+      <L i="294" l="490" v="{[0x400930-0x400931)}" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+        <S i="305" l="490" v="{[0x400955-0x40095a)}"/>
+        <S i="295" l="491" v="{[0x400914-0x400947)}"/>
+        <S i="301" l="492" v="{[0x400947-0x400955)}"/>
+      </L>
+      <A i="352" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="501" v="{}">
+        <A i="353" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="354" l="104" v="{[0x40095a-0x40096e)}"/>
+        </A>
+      </A>
+      <S i="214" l="503" v="{[0x400975-0x4009a5)}"/>
+      <S i="222" l="504" v="{[0x4009a5-0x4009a8)}"/>
+      <A i="358" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="505" v="{}">
+        <A i="359" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="360" l="104" v="{[0x4009a8-0x4009c4)}"/>
+        </A>
+      </A>
+      <A i="365" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="506" v="{}">
+        <A i="366" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="367" l="104" v="{[0x4009e4-0x400a0c)}"/>
+        </A>
+      </A>
+      <S i="223" l="506" v="{[0x4009c4-0x4009e4)}"/>
+      <A i="375" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="507" v="{}">
+        <A i="376" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="377" l="104" v="{[0x400a0c-0x400a32)}"/>
+        </A>
+      </A>
+      <S i="229" l="508" v="{[0x400a32-0x400a37)}"/>
+      <L i="307" l="509" v="{[0x400a53-0x400a54)}" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+        <S i="318" l="509" v="{[0x400a79-0x400a7e)}"/>
+        <S i="308" l="510" v="{[0x400a37-0x400a6b)}"/>
+        <S i="314" l="511" v="{[0x400a6b-0x400a79)}"/>
+      </L>
+      <A i="384" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="520" v="{}">
+        <A i="385" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="386" l="104" v="{[0x400a7e-0x400a92)}"/>
+        </A>
+      </A>
+      <S i="234" l="522" v="{[0x400a92-0x400ac2)}"/>
+      <S i="242" l="523" v="{[0x400ac2-0x400ac5)}"/>
+      <A i="390" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="524" v="{}">
+        <A i="391" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="392" l="104" v="{[0x400ac5-0x400ae1)}"/>
+        </A>
+      </A>
+      <A i="397" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="525" v="{}">
+        <A i="398" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="399" l="104" v="{[0x400b01-0x400b29)}"/>
+        </A>
+      </A>
+      <S i="243" l="525" v="{[0x400ae1-0x400b01)}"/>
+      <A i="407" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="526" v="{}">
+        <A i="408" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="409" l="104" v="{[0x400b29-0x400b4f)}"/>
+        </A>
+      </A>
+      <S i="249" l="527" v="{[0x400b4f-0x400b54)}"/>
+      <L i="320" l="528" v="{[0x400b70-0x400b71)}" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c">
+        <S i="331" l="528" v="{[0x400b96-0x400b9b)}"/>
+        <S i="321" l="529" v="{[0x400b54-0x400b88)}"/>
+        <S i="327" l="530" v="{[0x400b88-0x400b96)}"/>
+      </L>
+      <A i="416" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="539" v="{}">
+        <A i="417" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="418" l="104" v="{[0x400b9b-0x400baf)}"/>
+        </A>
+      </A>
+      <S i="254" l="541" v="{[0x400baf-0x400bb3)}"/>
+      <A i="422" f="/home/vinicius/Documents/UFRJ/CAD/TP1/stream.c" n="" l="542" v="{}">
+        <A i="423" f="/usr/include/x86_64-linux-gnu/bits/stdio2.h" n="printf" l="104" v="{}">
+          <S i="424" l="104" v="{[0x400bb3-0x400bcf)}"/>
+        </A>
+      </A>
+      <S i="256" l="550" v="{[0x400bcf-0x400bd5)}"/>
+    </P>
+  </F>
+  <F i="3" n="&lt;unknown file&gt;">
+    <P i="23" n="__libc_csu_fini" l="0" v="{[0x401100-0x401102)}">
+      <S i="765" l="0" v="{[0x401100-0x401102)}"/>
+    </P>
+    <P i="22" n="__libc_csu_init" l="0" v="{[0x401090-0x401100)}">
+      <L i="757" l="0" v="{[0x4010d0-0x4010d1)}" f="">
+        <S i="758" l="0" v="{[0x401090-0x4010f5)}"/>
+      </L>
+    </P>
+    <P i="8" n="__libc_start_main@plt" l="0" v="{[0x400520-0x400530)}">
+      <S i="35" l="0" v="{[0x400520-0x400526)}"/>
+    </P>
+    <P i="9" n="__printf_chk@plt" l="0" v="{[0x400530-0x400540)}">
+      <S i="36" l="0" v="{[0x400530-0x400536)}"/>
+    </P>
+    <P i="6" n="__stack_chk_fail@plt" l="0" v="{[0x400500-0x400510)}">
+      <S i="33" l="0" v="{[0x400500-0x400506)}"/>
+    </P>
+    <P i="24" n="_fini" l="0" v="{[0x401104-0x40110d)}">
+      <S i="766" l="0" v="{[0x401104-0x40110d)}"/>
+    </P>
+    <P i="4" n="_init" l="0" v="{[0x4004c0-0x4004da)}">
+      <S i="25" l="0" v="{[0x4004c0-0x4004da)}"/>
+    </P>
+    <P i="11" n="_start" l="0" v="{[0x400550-0x400580)}">
+      <S i="38" l="0" v="{[0x400550-0x40057a)}"/>
+    </P>
+    <P i="7" n="gettimeofday@plt" l="0" v="{[0x400510-0x400520)}">
+      <S i="34" l="0" v="{[0x400510-0x400516)}"/>
+    </P>
+    <P i="10" n="plt.got" ln=".plt.got" l="0" v="{[0x400540-0x400548)}">
+      <S i="37" l="0" v="{[0x400540-0x400546)}"/>
+    </P>
+    <P i="5" n="puts@plt" l="0" v="{[0x4004f0-0x400500)}">
+      <S i="32" l="0" v="{[0x4004f0-0x4004f6)}"/>
+    </P>
+  </F>
+  <F i="12" n="crtstuff.c">
+    <P i="15" n="__do_global_dtors_aux" l="0" v="{[0x400600-0x400620)}">
+      <S i="82" l="0" v="{[0x400600-0x40061c)}"/>
+    </P>
+    <P i="13" n="deregister_tm_clones" l="0" v="{[0x400580-0x4005c0)}">
+      <S i="50" l="0" v="{[0x400580-0x4005a7) [0x4005b0-0x4005b2)}"/>
+    </P>
+    <P i="16" n="frame_dummy" l="0" v="{[0x400620-0x400646)}">
+      <S i="90" l="0" v="{[0x400620-0x40062d) [0x400630-0x400646)}"/>
+    </P>
+    <P i="14" n="register_tm_clones" l="0" v="{[0x4005c0-0x400600)}">
+      <S i="64" l="0" v="{[0x4005c0-0x4005f5) [0x4005f8-0x4005fa)}"/>
+    </P>
+  </F>
+</LM>
+</HPCToolkitStructure>

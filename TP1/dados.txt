@@ -1,0 +1,4 @@
+Tamanho cache L3 = 4096KB = 4096 x 1024 Bytes = 4194304 Bytes
+Tamanho elemento array = 8 Bytes
+Tamanho mínimo de N = 4 * Tamanho cache L3/ 8 = 2097152 elementos
+

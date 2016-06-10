@@ -1,0 +1,32 @@
+[8279, N]: SYSTEM_SERVER: warning: memory usage: 50 Meg
+[8279, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[8279, N]: NULL (0): ip = 0x7f913c17a8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[8279, N]: NULL (0): ip = 0x7f913bddc4a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[8279, N]: -- end backtrace ------------------------------------
+
+[8279, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[8279, N]: NULL (0): ip = 0x7f913c17a8f8 (0xa8f8), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[8279, N]: NULL (0): ip = 0x7f913bddc4a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[8279, N]: -- end backtrace ------------------------------------
+
+[8279, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[8279, N]: NULL (0): ip = 0x7f913c17a8f8 (0xa8f8), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[8279, N]: NULL (0): ip = 0x7f913bddc4a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[8279, N]: -- end backtrace ------------------------------------
+
+[8279, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[8279, N]: NULL (0): ip = 0x7f913c17a8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[8279, N]: NULL (0): ip = 0x7f913bddc4a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[8279, N]: -- end backtrace ------------------------------------
+
+[8279, N]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[8279, N]: NULL (0): ip = 0x7f913c17a8e2 (0xa8e2), load module = /home/vinicius/local/hpctoolkit/lib/hpctoolkit/ext-libs/libmonitor.so.0.0.0 | lip 
+[8279, N]: NULL (0): ip = 0x7f913bddc4a0 (0x354a0), load module = /lib/x86_64-linux-gnu/libc-2.23.so | lip 
+[8279, N]: -- end backtrace ------------------------------------
+
+MEMORY: segment size: 4.0 meg, num segments: 1, total allocation: 4.0 meg, reclaims: 0
+MEMORY: total freeable: 0.0 meg, total non-freeable: 0.0 meg, malloc failures: 0
+SAMPLE ANOMALIES: blocks: 0 (async: 0, dlopen: 0), errors: 5 (segv: 0, soft: 5)
+SUMMARY: samples: 2537 (recorded: 2537, blocked: 0, errant: 5, trolled: 0, yielded: 0),
+         frames: 5136 (trolled: 0)
+         intervals: 55 (suspicious: 0)
