@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<!DOCTYPE HPCToolkitStructure [
+<!-- ******************************************************************** -->
+<!-- HPCToolkit Structure DTD                                             -->
+<!-- Version 4.6                                                          -->
+<!-- ******************************************************************** -->
+
+<!ELEMENT HPCToolkitStructure (LM)*>
+<!ATTLIST HPCToolkitStructure
+	version CDATA #REQUIRED
+	i       CDATA #REQUIRED
+	n       CDATA #IMPLIED>
+  <!-- Load module: -->
+  <!--   (i)d: unique identifier for cross referencing -->
+  <!--   (n)ame -->
+  <!--   (l)ine range: "beg-end" (inclusive range) -->
+  <!--   (v)ma-range-set: "{[beg-end), [beg-end)...}" -->
+  <!ELEMENT LM (F|P)*>
+  <!ATTLIST LM
+	i CDATA #REQUIRED
+	n CDATA #REQUIRED
+	v CDATA #IMPLIED>
+  <!-- File: -->
+  <!ELEMENT F (P|L|S)*>
+  <!ATTLIST F
+	i CDATA #REQUIRED
+	n CDATA #REQUIRED>
+  <!-- Procedure: ln=link name (if different than name) -->
+  <!ELEMENT P (P|A|L|S|C)*>
+  <!ATTLIST P
+	i  CDATA #REQUIRED
+	n  CDATA #REQUIRED
+	ln CDATA #IMPLIED
+	l  CDATA #IMPLIED
+	v  CDATA #IMPLIED>
+  <!-- Alien: (f)ilename -->
+  <!ELEMENT A (A|L|S|C)*>
+  <!ATTLIST A
+	i CDATA #REQUIRED
+	f CDATA #IMPLIED
+	n CDATA #IMPLIED
+	ln CDATA #IMPLIED
+	l CDATA #IMPLIED
+	v CDATA #IMPLIED>
+  <!-- Loop -->
+  <!ELEMENT L (A|L|S|C)*>
+  <!ATTLIST L
+	i CDATA #REQUIRED
+	l CDATA #REQUIRED
+	f CDATA #IMPLIED
+	v CDATA #IMPLIED>
+  <!-- Statement -->
+  <!ELEMENT S (S)*>
+  <!ATTLIST S
+	i CDATA #REQUIRED
+	l CDATA #REQUIRED
+	v CDATA #IMPLIED>
+  <!-- Callsite (a special Statement) -->
+  <!ELEMENT C EMPTY>
+  <!ATTLIST C
+	i CDATA #REQUIRED
+	l CDATA #REQUIRED
+	v CDATA #IMPLIED>
+]>
+<HPCToolkitStructure i="0" version="4.6" n="">
+<LM i="2" n="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/wave.exe" v="{}">
+  <F i="25" n="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+    <P i="26" n="Allocate3DMatrix(int, int, int)" ln="_Z16Allocate3DMatrixiii" l="25-37" v="{[0x400866-0x40092b)}">
+      <S i="121" l="26" v="{[0x400866-0x400878)}"/>
+      <S i="128" l="27" v="{[0x400878-0x40088d)}"/>
+      <L i="140" l="28" v="{[0x400894-0x400895)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+        <S i="141" l="28" v="{[0x40088d-0x4008a0) [0x400917-0x400920)}"/>
+        <S i="144" l="30" v="{[0x4008a0-0x4008c9)}"/>
+        <L i="158" l="31" v="{[0x4008d0-0x4008d1)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+          <S i="159" l="31" v="{[0x4008c9-0x4008d8) [0x400911-0x400917)}"/>
+          <S i="162" l="32" v="{[0x4008d8-0x400911)}"/>
+        </L>
+      </L>
+      <S i="135" l="36" v="{[0x400920-0x400924)}"/>
+      <S i="136" l="37" v="{[0x400924-0x40092b)}"/>
+    </P>
+    <P i="27" n="Deallocate3DMatrix(float***, Parameters*)" ln="_Z18Deallocate3DMatrixPPPfP10Parameters" l="40-50" v="{[0x40092b-0x4009bd)}">
+      <S i="180" l="41" v="{[0x40092b-0x40093b)}"/>
+      <L i="189" l="42" v="{[0x400942-0x400943)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+        <S i="190" l="42" v="{[0x40093b-0x40094d) [0x4009b4-0x4009ba)}"/>
+        <L i="205" l="44" v="{[0x400954-0x400955)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+          <S i="206" l="44" v="{[0x40094d-0x400960) [0x40098f-0x400995)}"/>
+          <S i="210" l="45" v="{[0x400960-0x40098f)}"/>
+        </L>
+        <S i="195" l="47" v="{[0x400995-0x4009b4)}"/>
+      </L>
+      <S i="186" l="50" v="{[0x4009ba-0x4009bd)}"/>
+    </P>
+    <P i="28" n="initialize(float***, float***, float***, Parameters*)" ln="_Z10initializePPPfS1_S1_P10Parameters" l="55-79" v="{[0x4009bd-0x400c15)}">
+      <S i="225" l="56" v="{[0x4009bd-0x4009d1)}"/>
+      <L i="238" l="57" v="{[0x4009d8-0x4009d9)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+        <S i="239" l="57" v="{[0x4009d1-0x4009e8) [0x400adf-0x400ae8)}"/>
+        <L i="246" l="58" v="{[0x4009ef-0x4009f0)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+          <S i="247" l="58" v="{[0x4009e8-0x4009ff) [0x400ad6-0x400adf)}"/>
+          <L i="254" l="59" v="{[0x400a06-0x400a07)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+            <S i="255" l="59" v="{[0x4009ff-0x400a15) [0x400acd-0x400ad6)}"/>
+            <S i="259" l="60" v="{[0x400a15-0x400a51)}"/>
+            <S i="276" l="61" v="{[0x400a51-0x400a8d)}"/>
+            <S i="293" l="62" v="{[0x400a8d-0x400acd)}"/>
+          </L>
+        </L>
+      </L>
+      <S i="232" l="68" v="{[0x400ae8-0x400af5)}"/>
+      <L i="312" l="69" v="{[0x400afc-0x400afd)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+        <S i="313" l="69" v="{[0x400af5-0x400b06) [0x400c09-0x400c12)}"/>
+        <L i="329" l="70" v="{[0x400b1c-0x400b1d)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+          <S i="330" l="70" v="{[0x400b06-0x400b3c) [0x400bea-0x400bf3)}"/>
+          <L i="351" l="71" v="{[0x400b52-0x400b53)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+            <S i="352" l="71" v="{[0x400b3c-0x400b6e) [0x400be1-0x400bea)}"/>
+            <L i="373" l="72" v="{[0x400b83-0x400b84)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+              <S i="374" l="72" v="{[0x400b6e-0x400b9e) [0x400bdb-0x400be1)}"/>
+              <S i="385" l="73" v="{[0x400b9e-0x400bdb)}"/>
+            </L>
+          </L>
+        </L>
+        <S i="323" l="77" v="{[0x400bf3-0x400c09)}"/>
+      </L>
+      <S i="235" l="79" v="{[0x400c12-0x400c15)}"/>
+    </P>
+    <P i="29" n="main" l="82-159" v="{[0x400c15-0x400f2b)}">
+      <S i="404" l="83" v="{[0x400c15-0x400c3c)}"/>
+      <S i="412" l="87" v="{[0x400c3c-0x400c43)}"/>
+      <S i="413" l="88" v="{[0x400c43-0x400c4a)}"/>
+      <S i="414" l="89" v="{[0x400c4a-0x400c51)}"/>
+      <S i="415" l="90" v="{[0x400c51-0x400c58)}"/>
+      <S i="416" l="93" v="{[0x400c58-0x400c6c)}"/>
+      <S i="424" l="112" v="{[0x400c6c-0x400ce1)}"/>
+      <S i="442" l="118" v="{[0x400ce1-0x400d03)}"/>
+      <L i="575" l="119" v="{[0x400d0a-0x400d0b)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+        <S i="576" l="119" v="{[0x400d03-0x400d10) [0x400d32-0x400d38)}"/>
+        <S i="578" l="120" v="{[0x400d10-0x400d32)}"/>
+      </L>
+      <S i="449" l="124" v="{[0x400d38-0x400d50)}"/>
+      <S i="452" l="127" v="{[0x400d50-0x400d65)}"/>
+      <S i="459" l="128" v="{[0x400d65-0x400d71)}"/>
+      <S i="462" l="130" v="{[0x400d71-0x400dcf)}"/>
+      <S i="484" l="132" v="{[0x400dcf-0x400de5)}"/>
+      <S i="491" l="133" v="{[0x400de5-0x400dfb)}"/>
+      <S i="498" l="134" v="{[0x400dfb-0x400e11)}"/>
+      <S i="505" l="136" v="{[0x400e11-0x400e2c)}"/>
+      <S i="514" l="137" v="{[0x400e2c-0x400e4a)}"/>
+      <S i="521" l="138" v="{[0x400e4a-0x400e5e)}"/>
+      <S i="525" l="139" v="{[0x400e5e-0x400e68)}"/>
+      <S i="527" l="142" v="{[0x400e68-0x400e72)}"/>
+      <S i="529" l="143" v="{[0x400e72-0x400e8a)}"/>
+      <S i="535" l="146" v="{[0x400e8a-0x400ea4)}"/>
+      <S i="541" l="148" v="{[0x400ea4-0x400eae)}"/>
+      <S i="543" l="150" v="{[0x400eae-0x400ecd)}"/>
+      <S i="551" l="152" v="{[0x400ecd-0x400ed7)}"/>
+      <S i="553" l="154" v="{[0x400ed7-0x400eea)}"/>
+      <S i="558" l="155" v="{[0x400eea-0x400efd)}"/>
+      <S i="563" l="156" v="{[0x400efd-0x400f10)}"/>
+      <S i="568" l="157" v="{[0x400f10-0x400f15)}"/>
+      <S i="569" l="159" v="{[0x400f15-0x400f2b)}"/>
+    </P>
+    <P i="30" n="run_wave_propagation(float***, float***, float***, float*, Parameters*)" ln="_Z20run_wave_propagationPPPfS1_S1_S_P10Parameters" l="163-181" v="{[0x400f2b-0x40101d)}">
+      <S i="588" l="164" v="{[0x400f2b-0x400f47)}"/>
+      <L i="600" l="168" v="{[0x400f4e-0x400f4f)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+        <S i="601" l="168" v="{[0x400f47-0x400f5e) [0x401011-0x40101a)}"/>
+        <S i="605" l="170" v="{[0x400f5e-0x400f95)}"/>
+        <S i="620" l="173" v="{[0x400f95-0x400fcc)}"/>
+        <S i="635" l="176" v="{[0x400fcc-0x400ff9)}"/>
+        <S i="653" l="177" v="{[0x400ff9-0x401011)}"/>
+      </L>
+      <S i="597" l="181" v="{[0x40101a-0x40101d)}"/>
+    </P>
+    <P i="31" n="iso_3dfd_it(float***, float***, float***, float*, int, int, int)" ln="_Z11iso_3dfd_itPPPfS1_S1_S_iii" l="184-202" v="{[0x40101d-0x4013ee)}">
+      <S i="661" l="185" v="{[0x40101d-0x401039)}"/>
+      <L i="673" l="186" v="{[0x401040-0x401041)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+        <S i="674" l="186" v="{[0x401039-0x40104f) [0x4013e2-0x4013eb)}"/>
+        <L i="681" l="187" v="{[0x401056-0x401057)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+          <S i="682" l="187" v="{[0x40104f-0x401065) [0x4013d9-0x4013e2)}"/>
+          <L i="689" l="188" v="{[0x40106c-0x40106d)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+            <S i="690" l="188" v="{[0x401065-0x40107b) [0x4013d0-0x4013d9)}"/>
+            <S i="694" l="190" v="{[0x40107b-0x401084)}"/>
+            <S i="696" l="191" v="{[0x401084-0x4010d6)}"/>
+            <S i="718" l="192" v="{[0x4010d6-0x40114b)}"/>
+            <L i="804" l="193" v="{[0x401152-0x401153)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+              <S i="805" l="193" v="{[0x40114b-0x40115c) [0x401314-0x40131d)}"/>
+              <S i="807" l="194" v="{[0x40115c-0x401229)}"/>
+              <S i="866" l="195" v="{[0x401229-0x4012ee)}"/>
+              <S i="922" l="196" v="{[0x4012ee-0x401314)}"/>
+            </L>
+            <S i="752" l="198" v="{[0x40131d-0x4013d0)}"/>
+          </L>
+        </L>
+      </L>
+      <S i="670" l="202" v="{[0x4013eb-0x4013ee)}"/>
+    </P>
+    <P i="32" n="write_plane_XY(float***, Parameters*, int, char const*)" ln="_Z14write_plane_XYPPPfP10ParametersiPKc" l="205-237" v="{[0x4013ee-0x401690)}">
+      <S i="933" l="206" v="{[0x4013ee-0x401423)}"/>
+      <S i="943" l="208" v="{[0x401423-0x401446)}"/>
+      <S i="950" l="210" v="{[0x401446-0x40145c)}"/>
+      <S i="957" l="212" v="{[0x40145c-0x401471)}"/>
+      <L i="1038" l="214" v="{[0x401478-0x401479)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+        <S i="1039" l="214" v="{[0x401471-0x40148a) [0x401534-0x40153d)}"/>
+        <L i="1046" l="215" v="{[0x401491-0x401492)}" f="/home/vinicius/Documents/Projects/CAD/TP1/ex4/waveopt/main.cc">
+          <S i="1047" l="215" v="{[0x40148a-0x4014a4) [0x40152b-0x401534)}"/>
+          <S i="1051" l="216" v="{[0x4014a4-0x40152b)}"/>
+        </L>
+      </L>
+      <S i="963" l="220" v="{[0x40153d-0x401549)}"/>
+      <S i="966" l="223" v="{[0x401549-0x40156c)}"/>
+      <S i="973" l="224" v="{[0x40156c-0x401581)}"/>
+      <S i="978" l="225" v="{[0x401581-0x40159c)}"/>
+      <S i="984" l="226" v="{[0x40159c-0x4015bf)}"/>
+      <S i="991" l="227" v="{[0x4015bf-0x4015da)}"/>
+      <S i="997" l="228" v="{[0x4015da-0x4015f5)}"/>
+      <S i="1003" l="229" v="{[0x4015f5-0x401610)}"/>
+      <S i="1009" l="230" v="{[0x401610-0x40162b)}"/>
+      <S i="1015" l="231" v="{[0x40162b-0x401646)}"/>
+      <S i="1021" l="232" v="{[0x401646-0x401669)}"/>
+      <S i="1028" l="233" v="{[0x401669-0x401675)}"/>
+      <S i="1031" l="237" v="{[0x401675-0x40168c)}"/>
+    </P>
+  </F>
+  <F i="3" n="&lt;unknown file&gt;">
+    <P i="34" n="__libc_csu_fini" l="0" v="{[0x401700-0x401702)}">
+      <S i="1120" l="0" v="{[0x401700-0x401702)}"/>
+    </P>
+    <P i="33" n="__libc_csu_init" l="0" v="{[0x401690-0x401700)}">
+      <L i="1112" l="0" v="{[0x4016d0-0x4016d1)}" f="">
+        <S i="1113" l="0" v="{[0x401690-0x4016f5)}"/>
+      </L>
+    </P>
+    <P i="10" n="__libc_start_main@plt" l="0" v="{[0x4006e0-0x4006f0)}">
+      <S i="48" l="0" v="{[0x4006e0-0x4006e6)}"/>
+    </P>
+    <P i="8" n="__stack_chk_fail@plt" l="0" v="{[0x4006c0-0x4006d0)}">
+      <S i="46" l="0" v="{[0x4006c0-0x4006c6)}"/>
+    </P>
+    <P i="35" n="_fini" l="0" v="{[0x401704-0x40170d)}">
+      <S i="1121" l="0" v="{[0x401704-0x40170d)}"/>
+    </P>
+    <P i="4" n="_init" l="0" v="{[0x400658-0x400672)}">
+      <S i="36" l="0" v="{[0x400658-0x400672)}"/>
+    </P>
+    <P i="19" n="_start" l="0" v="{[0x400770-0x4007a0)}">
+      <S i="57" l="0" v="{[0x400770-0x40079a)}"/>
+    </P>
+    <P i="16" n="exit@plt" l="0" v="{[0x400740-0x400750)}">
+      <S i="54" l="0" v="{[0x400740-0x400746)}"/>
+    </P>
+    <P i="7" n="fclose@plt" l="0" v="{[0x4006b0-0x4006c0)}">
+      <S i="45" l="0" v="{[0x4006b0-0x4006b6)}"/>
+    </P>
+    <P i="13" n="fflush@plt" l="0" v="{[0x400710-0x400720)}">
+      <S i="51" l="0" v="{[0x400710-0x400716)}"/>
+    </P>
+    <P i="14" n="fopen@plt" l="0" v="{[0x400720-0x400730)}">
+      <S i="52" l="0" v="{[0x400720-0x400726)}"/>
+    </P>
+    <P i="11" n="fprintf@plt" l="0" v="{[0x4006f0-0x400700)}">
+      <S i="49" l="0" v="{[0x4006f0-0x4006f6)}"/>
+    </P>
+    <P i="5" n="free@plt" l="0" v="{[0x400690-0x4006a0)}">
+      <S i="43" l="0" v="{[0x400690-0x400696)}"/>
+    </P>
+    <P i="17" n="fwrite@plt" l="0" v="{[0x400750-0x400760)}">
+      <S i="55" l="0" v="{[0x400750-0x400756)}"/>
+    </P>
+    <P i="12" n="malloc@plt" l="0" v="{[0x400700-0x400710)}">
+      <S i="50" l="0" v="{[0x400700-0x400706)}"/>
+    </P>
+    <P i="18" n="plt.got" ln=".plt.got" l="0" v="{[0x400760-0x400768)}">
+      <S i="56" l="0" v="{[0x400760-0x400766)}"/>
+    </P>
+    <P i="9" n="printf@plt" l="0" v="{[0x4006d0-0x4006e0)}">
+      <S i="47" l="0" v="{[0x4006d0-0x4006d6)}"/>
+    </P>
+    <P i="6" n="puts@plt" l="0" v="{[0x4006a0-0x4006b0)}">
+      <S i="44" l="0" v="{[0x4006a0-0x4006a6)}"/>
+    </P>
+    <P i="15" n="sprintf@plt" l="0" v="{[0x400730-0x400740)}">
+      <S i="53" l="0" v="{[0x400730-0x400736)}"/>
+    </P>
+  </F>
+  <F i="20" n="crtstuff.c">
+    <P i="23" n="__do_global_dtors_aux" l="0" v="{[0x400820-0x400840)}">
+      <S i="101" l="0" v="{[0x400820-0x40083c)}"/>
+    </P>
+    <P i="21" n="deregister_tm_clones" l="0" v="{[0x4007a0-0x4007e0)}">
+      <S i="69" l="0" v="{[0x4007a0-0x4007c7) [0x4007d0-0x4007d2)}"/>
+    </P>
+    <P i="24" n="frame_dummy" l="0" v="{[0x400840-0x400866)}">
+      <S i="109" l="0" v="{[0x400840-0x40084d) [0x400850-0x400866)}"/>
+    </P>
+    <P i="22" n="register_tm_clones" l="0" v="{[0x4007e0-0x400820)}">
+      <S i="83" l="0" v="{[0x4007e0-0x400815) [0x400818-0x40081a)}"/>
+    </P>
+  </F>
+</LM>
+</HPCToolkitStructure>
