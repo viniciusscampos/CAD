@@ -1,0 +1,2 @@
+Tempo de execução total: 30137.4
+Tempo de multiplicação: 30080.9

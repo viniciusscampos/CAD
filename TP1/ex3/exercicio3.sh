@@ -1,14 +1,16 @@
 #!/bin/bash
 
+echo "Compiling programs"
 #compile the code with diferents levels of optimization
 for o in O1 O2 O3
 do
     mkdir main-$o
     cd main-$o
-    g++ -$o -std=c++11 main.cpp -o main$o
+    g++ -$o -std=c++11 ../main.cpp -o main$o
     cd ../
 done
 
+echo "Running the optimization"
 #run the program with diferents values for N, diferent levels of optimization 
 #and alternating the normal and inverted loop order
 for o in O1 O2 O3
