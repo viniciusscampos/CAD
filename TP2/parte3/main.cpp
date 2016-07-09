@@ -19,8 +19,8 @@ std::vector<std::vector <double> > generateRandomVector() {
     std::vector<std::vector<double> > ret;
     ret.reserve(N);
     for (unsigned long int i = 0; i < N; i++){
-        double x = (rand() % N + 1)/(N*1.0);
-        double y = (rand() % N + 1)/(N*1.0);
+        double x = (double) rand() / ((double) RAND_MAX +1);
+        double y = (double) rand() / ((double) RAND_MAX +1);
         double lt[] = {x,y};
         std::vector<double> vec (lt, lt + sizeof(lt) / sizeof(lt[0]) );
         ret.push_back(vec);
