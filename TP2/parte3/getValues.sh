@@ -1,20 +1,24 @@
 echo "Rodando programa"
 mkdir resultados
-mkdir resultados/medias
+mkdir resultados/media
 cd resultados
-for j in 1 2 4 8 16 32
+
+
+for k in 1000000,1 2000000,2 3000000,3 4000000,4 6000000,6 8000000,8 16000000,16 32000000,32 48000000,48 64000000,64
 do
-	g++ -std=c++11 -fopenmp -DN=1000000 -DNT=$j ../main.cpp -o main
+	IFS=",";
+	set $k;
+	g++ -std=c++11 -fopenmp -DN=$1 -DNT=$2 ../main.cpp -o main
 	for i in 1 2 3 4 5 6 7 8 9 10
 	do		
-		./main  >> $j.txt
+		./main  >> $1-$2.txt
 	done
 done
 
 echo "Calculando as médias"
-for f in *.txt
+for k in 1000000,1 2000000,2 3000000,3 4000000,4 6000000,6 8000000,8 16000000,16 32000000,32 48000000,48 64000000,64
 do
-	cat $f >> medias/A$f
-	./../calculateAverages medias/A$f >> medias/AV$f
-	rm medias/A$f
+	IFS=",";
+	set $k;	
+	./../calculateAverages $1-$2.txt >> media/medias.txt
 done
