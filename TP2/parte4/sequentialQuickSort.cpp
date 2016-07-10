@@ -2,6 +2,7 @@
 #include <vector> 
 #include <cstdlib>
 #include <ctime>
+#include <chrono>
 #include <cmath>
 #include <string>
 
@@ -51,9 +52,11 @@ void quicksort(std::vector<int> &vec, int begin, int end, int size){
 }
 
 int main(int argc, char** argv) {
-      const std::string argument1 = argv[1];
-      int K = std::stoi(argument1);     
-      std::vector<int> vec = generateRandomVector(std::pow(2,K));
-      quicksort(vec, 0, vec.size() - 1, vec.size());
-      std::cout << std::chrono::duration<double, std::milli>(endTime - startTime).count() << std::endl;
+  auto startTime = std::chrono::steady_clock::now();
+  const std::string argument1 = argv[1];
+  int K = std::stoi(argument1);     
+  std::vector<int> vec = generateRandomVector(std::pow(2,K));
+  quicksort(vec, 0, vec.size() - 1, vec.size());
+  auto endTime = std::chrono::steady_clock::now();
+  std::cout << std::chrono::duration<double, std::milli>(endTime - startTime).count() << std::endl;
 }

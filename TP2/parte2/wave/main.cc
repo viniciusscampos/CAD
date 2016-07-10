@@ -87,7 +87,7 @@ int main(int argc, char** argv)
 	p.nx = 256;
 	p.ny = 256;
 	p.nz = 256;
-	p.n_time_steps = 200;
+	p.n_time_steps = 10;
 
 	// Make sure nreps is rouded up to next even number (to support swap)
 	p.n_time_steps = ((p.n_time_steps + 1) / 2) * 2;

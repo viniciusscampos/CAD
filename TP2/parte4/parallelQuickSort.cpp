@@ -31,6 +31,7 @@ int partition(std::vector<int> &vec, int begin, int end) {
     int j = end;
 
     while (i <= j) {
+      
         while(i <= j && vec[i] <= pivot) {
             i++;
         }
@@ -75,6 +76,6 @@ int main(int argc, char** argv) {
   std::vector<int> vec = generateRandomVector(std::pow(2,K));
   quicksort(vec, 0, vec.size() - 1, vec.size());
   auto endTime = std::chrono::steady_clock::now();
-  
+
   std::cout << std::chrono::duration<double, std::milli>(endTime - startTime).count() << std::endl;
 }
