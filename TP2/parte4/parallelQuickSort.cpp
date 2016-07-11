@@ -55,7 +55,7 @@ void quicksort(std::vector<int> &vec, int begin, int end, int size){
 
     int part = partition(vec, begin, end);
 
-    omp_set_num_threads(4);   
+    omp_set_num_threads(NT);   
     #pragma omp parallel sections
     {       
       std::cout<<omp_get_num_threads()<<std::endl;       
