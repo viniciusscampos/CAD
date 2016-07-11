@@ -3,6 +3,7 @@
 #include <string.h>
 #include <time.h>
 #include <omp.h>
+#include <sys/time.h>
 #include <iostream>
 #include <algorithm>
 
@@ -85,6 +86,11 @@ void initialize(float*** prev, float*** next, float*** vel, Parameters* p)
 
 int main(int argc, char** argv)
 {
+	struct timeval t1, t2;
+    double elapsedTime;
+
+    gettimeofday(&t1, NULL);
+
 	// Defaults
 	// Malha com 256 x 256 x 256 pontos.
 	Parameters p;
@@ -158,7 +164,11 @@ int main(int argc, char** argv)
 	Deallocate3DMatrix(p.prev, &p);
 	Deallocate3DMatrix(p.next, &p);
 	Deallocate3DMatrix(p.vel , &p);
-	return 0;
+
+gettimeofday(&t2, NULL);
+elapsedTime = (t2.tv_sec - t1.tv_sec);
+std::cout << "Tempo de execução: "<<elapsedTime << std::endl;
+return 0;
 
 }
 
@@ -189,7 +199,7 @@ void iso_3dfd_it(float ***ptr_next, float ***ptr_prev, float ***ptr_vel, float *
 {	
 int block_size=4;
 omp_set_num_threads(8);
-#pragma omp parallel for schedule(static)
+#pragma omp parallel for schedule(dynamic)
 	for(int ii=HALF_LENGTH; ii<(n1-HALF_LENGTH); ii+=block_size){
 		for(int jj=HALF_LENGTH; jj<(n2-HALF_LENGTH); jj+=block_size){
 			for(int kk=HALF_LENGTH; kk<(n3-HALF_LENGTH); kk+=block_size){
@@ -231,7 +241,7 @@ void write_plane_XY(float ***r, Parameters *p, int t_step, const char* rootname)
 
 	 fclose(fout);
 
-	
+	 /*
 	 sprintf(fname,"%s_%03d.plot",rootname, t_step);
 	 fout = fopen(fname,"w");
 	 fprintf(fout, "set terminal png\n");
@@ -243,7 +253,7 @@ void write_plane_XY(float ***r, Parameters *p, int t_step, const char* rootname)
 	 fprintf(fout, "set dgrid3d 100,100\n");
 	 fprintf(fout, "splot \'%s_%03d.dat\' u 1:2:3 t\"\"\n", rootname, t_step);
 	 fclose(fout);
-	
+	*/
 
 
 }

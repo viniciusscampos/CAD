@@ -1,8 +1,9 @@
+
+#include "main.cc.opari.inc"
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
-#include <omp.h>
 #include <iostream>
 #include <algorithm>
 
@@ -189,7 +190,15 @@ void iso_3dfd_it(float ***ptr_next, float ***ptr_prev, float ***ptr_vel, float *
 {	
 int block_size=4;
 omp_set_num_threads(8);
-#pragma omp parallel for schedule(static)
+{
+  int pomp2_num_threads = omp_get_max_threads();
+  int pomp2_if = 1;
+  POMP2_Task_handle pomp2_old_task;
+  POMP2_Parallel_fork(&pomp2_region_1, pomp2_if, pomp2_num_threads, &pomp2_old_task, pomp2_ctc_1 );
+#pragma omp parallel                       POMP2_DLIST_00001 firstprivate(pomp2_old_task) if(pomp2_if) num_threads(pomp2_num_threads)
+{   POMP2_Parallel_begin( &pomp2_region_1 );
+{   POMP2_For_enter( &pomp2_region_1, pomp2_ctc_1  );
+#pragma omp          for schedule(dynamic)                   nowait
 	for(int ii=HALF_LENGTH; ii<(n1-HALF_LENGTH); ii+=block_size){
 		for(int jj=HALF_LENGTH; jj<(n2-HALF_LENGTH); jj+=block_size){
 			for(int kk=HALF_LENGTH; kk<(n3-HALF_LENGTH); kk+=block_size){
@@ -210,7 +219,16 @@ omp_set_num_threads(8);
 				}	
 			}
 		}
-	}					
+	}
+{ POMP2_Task_handle pomp2_old_task;
+  POMP2_Implicit_barrier_enter( &pomp2_region_1, &pomp2_old_task );
+#pragma omp barrier
+  POMP2_Implicit_barrier_exit( &pomp2_region_1, pomp2_old_task ); }
+  POMP2_For_exit( &pomp2_region_1 );
+ }
+  POMP2_Parallel_end( &pomp2_region_1 ); }
+  POMP2_Parallel_join( &pomp2_region_1, pomp2_old_task ); }
+  					
 }
 
 
@@ -231,7 +249,7 @@ void write_plane_XY(float ***r, Parameters *p, int t_step, const char* rootname)
 
 	 fclose(fout);
 
-	
+	 /*
 	 sprintf(fname,"%s_%03d.plot",rootname, t_step);
 	 fout = fopen(fname,"w");
 	 fprintf(fout, "set terminal png\n");
@@ -243,7 +261,7 @@ void write_plane_XY(float ***r, Parameters *p, int t_step, const char* rootname)
 	 fprintf(fout, "set dgrid3d 100,100\n");
 	 fprintf(fout, "splot \'%s_%03d.dat\' u 1:2:3 t\"\"\n", rootname, t_step);
 	 fclose(fout);
-	
+	*/
 
 
 }
