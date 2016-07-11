@@ -184,6 +184,8 @@ void run_wave_propagation(float ***ptr_next, float ***ptr_prev, float ***ptr_vel
 
 void iso_3dfd_it(float ***ptr_next, float ***ptr_prev, float ***ptr_vel, float *coeff, const int n1, const int n2, const int n3)
 {
+	#pragma omp parallel for collapse(3) schedule(static) set_num_threads(8)
+	{
 		for (int i = HALF_LENGTH; i<n1 - HALF_LENGTH; i++)
 	 	{
 		   for (int j = HALF_LENGTH; j<n2 - HALF_LENGTH; j++) {
@@ -200,6 +202,7 @@ void iso_3dfd_it(float ***ptr_next, float ***ptr_prev, float ***ptr_vel, float *
 					ptr_next[i][j][k] += value*ptr_vel[i][j][k];
 				}
 			}
+	}
 	}	
 }
 

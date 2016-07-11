@@ -37,6 +37,7 @@ int main(int argc, char** argv) {
     omp_set_num_threads(NT);    
     #pragma omp parallel
     {
+        std::cout<<omp_get_num_threads()<<","<<std::endl;
         #pragma omp for schedule(static) reduction(+:M)
         for (int i=0; i< N;i++){
            double rx = aux[i][0] - 0.5; //d² = (Px - Cx)² + (Py - Cy)²

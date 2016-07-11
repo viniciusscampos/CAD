@@ -187,31 +187,29 @@ void run_wave_propagation(float ***ptr_next, float ***ptr_prev, float ***ptr_vel
 void iso_3dfd_it(float ***ptr_next, float ***ptr_prev, float ***ptr_vel, float *coeff, const int n1, const int n2, const int n3)
 {	
 	int block_size=4;
-	#pragma omp parallel for collapse(3) schedule(guided) set_num_threads(8)
-	{
-		for(int ii=HALF_LENGTH; ii<(n1-HALF_LENGTH); ii+=block_size){
-			for(int jj=HALF_LENGTH; jj<(n2-HALF_LENGTH); jj+=block_size){
-				for(int kk=HALF_LENGTH; kk<(n3-HALF_LENGTH); kk+=block_size){
-					for(int i=ii; i < min(n1-HALF_LENGTH,ii+block_size-1);++i){
-						for (int j=jj; j < min(n2-HALF_LENGTH,jj+block_size-1); ++j){
-							for(int k=kk; k < min(n3-HALF_LENGTH,kk+block_size-1); ++k){
-								float value = 0.0;
-								value += ptr_prev[i][j][k] * coeff[0];
-								ptr_next[i][j][k] = ptr_prev[i][j][k] + ptr_prev[i][j][k];							
-								for (int ir = 1; ir <= HALF_LENGTH; ir++) {
-									value += ptr_prev[i+ir][j][k] + ptr_prev[i][j+ir][k] + ptr_prev[i][j][k+ir];
-									value += ptr_prev[i-ir][j][k] + ptr_prev[i][j-ir][k] + ptr_prev[i][j][k-ir];
-									value = value * coeff[ir];
-								}				
-								ptr_next[i][j][k] += value*ptr_vel[i][j][k];
-							}
-						}	
+omp_set_num_threads(8);
+#pragma omp parallel for schedule(guided)
+	for(int ii=HALF_LENGTH; ii<(n1-HALF_LENGTH); ii+=block_size){
+		for(int jj=HALF_LENGTH; jj<(n2-HALF_LENGTH); jj+=block_size){
+			for(int kk=HALF_LENGTH; kk<(n3-HALF_LENGTH); kk+=block_size){
+				for(int i=ii; i < min(n1-HALF_LENGTH,ii+block_size-1);++i){
+					for (int j=jj; j < min(n2-HALF_LENGTH,jj+block_size-1); ++j){
+						for(int k=kk; k < min(n3-HALF_LENGTH,kk+block_size-1); ++k){
+							float value = 0.0;
+							value += ptr_prev[i][j][k] * coeff[0];
+							ptr_next[i][j][k] = ptr_prev[i][j][k] + ptr_prev[i][j][k];							
+							for (int ir = 1; ir <= HALF_LENGTH; ir++) {
+								value += ptr_prev[i+ir][j][k] + ptr_prev[i][j+ir][k] + ptr_prev[i][j][k+ir];
+								value += ptr_prev[i-ir][j][k] + ptr_prev[i][j-ir][k] + ptr_prev[i][j][k-ir];
+								value = value * coeff[ir];
+							}				
+							ptr_next[i][j][k] += value*ptr_vel[i][j][k];
+						}
 					}	
-				}
+				}	
 			}
-		}		
-	}		
-	
+		}
+	}					
 }
 
 
@@ -232,7 +230,7 @@ void write_plane_XY(float ***r, Parameters *p, int t_step, const char* rootname)
 
 	 fclose(fout);
 
-
+	 
 	 sprintf(fname,"%s_%03d.plot",rootname, t_step);
 	 fout = fopen(fname,"w");
 	 fprintf(fout, "set terminal png\n");
@@ -244,7 +242,7 @@ void write_plane_XY(float ***r, Parameters *p, int t_step, const char* rootname)
 	 fprintf(fout, "set dgrid3d 100,100\n");
 	 fprintf(fout, "splot \'%s_%03d.dat\' u 1:2:3 t\"\"\n", rootname, t_step);
 	 fclose(fout);
-
+	
 
 
 }
