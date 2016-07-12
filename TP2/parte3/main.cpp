@@ -40,7 +40,7 @@ int main(int argc, char** argv) {
         std::cout<<omp_get_num_threads()<<","<<std::endl;
         #pragma omp for schedule(static) reduction(+:M)
         for (int i=0; i< N;i++){
-           double rx = aux[i][0] - 0.5; //d² = (Px - Cx)² + (Py - Cy)²
+           double rx = aux[i][0] - 0.5;
            double ry = aux[i][1] - 0.5;
            double d = std::sqrt( std::pow(rx,2) + std::pow(ry,2) );           
            if(d< 0.5){     
