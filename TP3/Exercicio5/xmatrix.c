@@ -15,7 +15,7 @@ float** generateRandomMatrix() {
 	for(int i=0;i<N;i++){		
 		matrix[i] = malloc(N*sizeof(float));
 		for(int j=0;j<N;j++){
-			matrix[i][j] = (float) rand();					
+			matrix[i][j] = (float) 1.0;					
 		}
 	}	    
     return matrix;
@@ -27,38 +27,47 @@ int main (int argc, char** argv)
 	int rank, nproc;	
 	MPI_Request request;
 	MPI_Status status;
-	MPI_Datatype rowtype,coltype;
+	MPI_Datatype coltype;
 	unsigned long count = (unsigned long) N * (unsigned long)N;
 	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 	MPI_Comm_size(MPI_COMM_WORLD, &nproc);
 	
 	float recvbufA[N];
 	float recvbufB[N];
-	float **product;
+	float **product= NULL;
 
 	if(rank==0){		
-		float **A = {{1,1},{1,1}};
-		float **B = {{1,1},{1,1}};
-		product = (float *)malloc(sizeof(float)*count);
+		float **A = generateRandomMatrix();
+		float **B = generateRandomMatrix();
+		product = malloc(sizeof(float)*count);
 
-		MPI_Type_vector(N,1,MPI_FLOAT,N,&coltype);
-		MPI_Type_commit(&rowtype);
+		MPI_Type_vector(N,1,1,MPI_FLOAT,&coltype);
+		MPI_Type_commit(&coltype);
 
-		MPI_Scatter(&(A[0][0]),N,MPI_FLOAT,recvbufA,N,MPI_FLOAT,rank,MPI_COMM_WORLD);		
-		for(int i=0;i<nproc;i++){
-			MPI_Send(&B[0][i],1,coltype,i,i,MPI_COMM_WORLD);		
-		}		
-	}
-	
-	MPI_Recv(recvbufB,N,MPI_FLOAT,0,0,MPI_COMM_WORLD,&status);
+		MPI_Scatter(&(A[0][0]),N,MPI_FLOAT,recvbufA,N,MPI_FLOAT,rank,MPI_COMM_WORLD);
+		MPI_Scatter(&(B[0][0]),N,MPI_FLOAT,recvbufB,N,coltype,rank,MPI_COMM_WORLD);	
+	}	
 	
 	float *C = malloc(N*sizeof(float));
+
+	for(int i=0;i<N;i++){
+			for(int j=0;j<N;j++){
+				printf("%f\n", recvbufA[i]);
+			}
+		}
 	for(int i=0;i<N;i++){
 		C[i] = recvbufA[i]*recvbufB[i];
 	}
 	
 	MPI_Gather(C,N,MPI_FLOAT,product,N,MPI_FLOAT,0,MPI_COMM_WORLD);
 
+	if(rank==0){
+		for(int i=0;i<N;i++){
+			//for(int j=0;j<N;j++){
+				//printf("%f\n", C[i]);
+			//}
+		}
+	}
 		
 	/*
 	MPI_Isend(&(A[0][0]),count,MPI_FLOAT,right,0,MPI_COMM_WORLD,&request);
