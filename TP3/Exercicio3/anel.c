@@ -3,13 +3,11 @@
 #include <stdlib.h>
 
 #ifndef N
-	#define N 2
+	#define N 10000
 #endif
 
 
-int main (argc, argv)
-int argc;
-char **argv;
+int main (int argc, char** argv)
 {
 	MPI_Init(&argc, &argv);
 	int rank, nproc,right,left;	
@@ -32,29 +30,30 @@ char **argv;
 		left=rank-1;	
 	}
 
-	float **A = malloc(sizeof(float)*N);
-	float **B = malloc(sizeof(float)*N);
-	for(int i=0;i<N;i++){
-		A[i] = malloc(sizeof(float)*N);
-		B[i] = malloc(sizeof(float)*N);
+	float **A;
+	float **B;
+	A = malloc(N*sizeof(float *));
+	B = malloc(N*sizeof(float *));	
+	for(int i=0;i<N;i++){		
+		A[i] = malloc(N*sizeof(float));
+		B[i] = malloc(N*sizeof(float));
 		for(int j=0;j<N;j++){
-			A[i][j] = (float) rank;
+			A[i][j] = (float) rank;					
 		}
 	}	
 
-	MPI_Isend(&A,count,MPI_FLOAT,right,0,MPI_COMM_WORLD,&request);
-	MPI_Irecv(&B,count,MPI_FLOAT,left,0,MPI_COMM_WORLD,&request);
+
+	MPI_Isend(&(A[0][0]),count,MPI_FLOAT,right,0,MPI_COMM_WORLD,&request);
+	MPI_Irecv(&(B[0][0]),count,MPI_FLOAT,left,0,MPI_COMM_WORLD,&request);
+
 
 	MPI_Wait(&request,&status);
 	printf("A matriz B do processo: %d\n", rank);
-	printf("%f\n", &B[0][0]);
+	printf("%f\n", B[0][0]);
 
-	for (int i = 0; i< N; i++)
-	{		
-		free(A[i]);
-		free(B[i]);
-	}
+	free(A[0]);
 	free(A);
+	free(B[0]);
 	free(B);
 
 	MPI_Finalize();
