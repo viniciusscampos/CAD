@@ -34,10 +34,11 @@ int main (int argc, char** argv)
 	float **B;
 	A = malloc(N*sizeof(float *));
 	B = malloc(N*sizeof(float *));	
-	for(int i=0;i<N;i++){		
+	int i, j;
+	for(i=0;i<N;i++){		
 		A[i] = malloc(N*sizeof(float));
 		B[i] = malloc(N*sizeof(float));
-		for(int j=0;j<N;j++){
+		for(j=0;j<N;j++){
 			A[i][j] = (float) rank;					
 		}
 	}	

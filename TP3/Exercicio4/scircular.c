@@ -26,8 +26,8 @@ int main (int argc, char** argv)
 	}	
 	float sum=0.0;
 	float A = rank;
-
-	for(int i=0;i<nproc;i++){		
+	int i;
+	for(i=0;i<nproc;i++){		
 		float B;
 		MPI_Isend(&A,1,MPI_FLOAT,dest,0,MPI_COMM_WORLD,&request);
 		MPI_Irecv(&B,1,MPI_FLOAT,orig,0,MPI_COMM_WORLD,&request);			
