@@ -4,15 +4,11 @@
 #include <sys/time.h>
 
 #ifndef N
-  #define N 100000000
+  #define N 10000000
 #endif
 
-float generateRandomNumber (){
-  int i;
-  //float a = 5.0; //número máximo para geração
-  //return ((float)rand()/(float)(RAND_MAX)) * a;
-  return 1.0;
-}
+float A[N],B[N];
+double sum=0;
 
 int main (int argc, char** argv)
 {
@@ -22,24 +18,16 @@ int main (int argc, char** argv)
 
   srand(time(NULL)); 
   int i;
-  double sum=0;
-  float *A;
-  float *B;
-  A = malloc(N*sizeof(float));
-  B = malloc(N*sizeof(float));
 
   for (i=0; i<N; i++){
-    A[i]=generateRandomNumber();
-    B[i]=generateRandomNumber();
+    A[i]=1.0;
+    B[i]=1.0;
   }
 
   for (i = 0; i < N; i++) {
     sum += A[i] * B[i];
   }
   printf("Soma: %f\n", sum);
- 
-  free(A);
-  free(B);
 
   gettimeofday(&stop,NULL);
   elapsed = (stop.tv_sec - start.tv_sec)*1000.0f + (stop.tv_usec - start.tv_usec)/1000.0f;
