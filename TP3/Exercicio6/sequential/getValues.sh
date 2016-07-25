@@ -1,12 +1,12 @@
 echo "Rodando programa"
 mkdir tempos
 mkdir tempos/media
-cp xmatrix tempos/xmatrix
+cp sequential tempos/sequential
 cd tempos
 
-for i in 100
+for i in 1 2 3 4 5 6 7 8 9 10
 do		
-	mpirun -np $i ./xmatrix | grep "Tempo de execução:" | awk '{print $4}' >> tempos.txt;
+	./sequential | grep "Tempo de execução:" | awk '{print $4}' >> tempos.txt;
 done
 
 echo "Calculando as médias"

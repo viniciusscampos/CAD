@@ -9,8 +9,8 @@ Versão sequencial
 
 #include <stdlib.h>
 
-#define NI 0        /* tamanho dos array  */
-#define NJ 0
+#define NI 100        /* tamanho dos array  */
+#define NJ 100
 
 #define NSTEPS 500    /* Numero de iteracoes */
 
@@ -39,13 +39,12 @@ int main(int argc, char *argv[])
   {
     for(j=1; j<=NJ; j++)
     {
-   //     x = rand()/((float)RAND_MAX + 1);
-   //     if(x<0.5){
-	  // old[i][j] = 0;
-   //     } else {
-	  // old[i][j] = 1;
-   //     }
-      old[i][j]=1;
+       x = rand()/((float)RAND_MAX + 1);
+       if(x<0.5){
+    old[i][j] = 0;
+       } else {
+    old[i][j] = 1;
+       }
     }
   }
 
@@ -79,33 +78,33 @@ int main(int argc, char *argv[])
     {
        for(j=1; j<=NJ; j++)
        {
-	  im = i-1;
-	  ip = i+1;
-	  jm = j-1;
-	  jp = j+1;
+    im = i-1;
+    ip = i+1;
+    jm = j-1;
+    jp = j+1;
 
-	  nsum =  old[im][jp] + old[i][jp] + old[ip][jp]
-	        + old[im][j ]              + old[ip][j ] 
-	        + old[im][jm] + old[i][jm] + old[ip][jm];
+    nsum =  old[im][jp] + old[i][jp] + old[ip][jp]
+          + old[im][j ]              + old[ip][j ] 
+          + old[im][jm] + old[i][jm] + old[ip][jm];
 
-	  switch(nsum)
+    switch(nsum)
           {
              case 3:
-	        new[i][j] = 1;
-	     break;
-	     case 2:
-	        new[i][j] = old[i][j];
-	     break;
+          new[i][j] = 1;
+       break;
+       case 2:
+          new[i][j] = old[i][j];
+       break;
              default:
-	       new[i][j] = 0;
-	  }
+         new[i][j] = 0;
+    }
        }
     }
 
     /* copia estado  */
     for(i=1; i<=NI; i++){
       for(j=1; j<=NJ; j++){
-	old[i][j] = new[i][j];
+  old[i][j] = new[i][j];
       }
     }
   }
@@ -116,7 +115,7 @@ int main(int argc, char *argv[])
     for(j=1; j<=NJ; j++){
       isum = isum + new[i][j];
     }
-  }  
+  }
   printf("\n# Celulas Vivas = %d\n", isum);
 
 

@@ -1,6 +1,8 @@
 #include "mpi.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
+#include <sys/time.h>
 
 #ifndef N
 	#define N 10000
@@ -8,7 +10,11 @@
 
 
 int main (int argc, char** argv)
-{
+{	
+	struct timeval stop, start;
+  	float elapsed;  
+  	gettimeofday(&start,NULL);
+
 	MPI_Init(&argc, &argv);
 	int rank, nproc,right,left;	
 	MPI_Request request;
@@ -43,7 +49,6 @@ int main (int argc, char** argv)
 		}
 	}	
 
-
 	MPI_Isend(&(A[0][0]),count,MPI_FLOAT,right,0,MPI_COMM_WORLD,&request);
 	MPI_Irecv(&(B[0][0]),count,MPI_FLOAT,left,0,MPI_COMM_WORLD,&request);
 
@@ -56,7 +61,14 @@ int main (int argc, char** argv)
 	free(A);
 	free(B[0]);
 	free(B);
-
+	
+	MPI_Barrier(MPI_COMM_WORLD);
+	//if(rank==0){
+		gettimeofday(&stop,NULL);
+    	elapsed = (stop.tv_sec - start.tv_sec)*1000.0f + (stop.tv_usec - start.tv_usec)/1000.0f;
+    	printf("Tempo de execução: %f\n", elapsed/1000.0);      	
+	//}
+	
 	MPI_Finalize();
 	return 0;
 }

@@ -10,12 +10,13 @@ Versão sequencial
 
 #include <stdlib.h>
 
-#define NI 0        /* tamanho dos array  */
-#define NJ 0
+#define NI 100        /* tamanho dos array  */
+#define NJ 100
 
 #define NSTEPS 500    /* Numero de iteracoes */
+#define np 2
 
-int old[NI][NJ],new[NI][NJ],globalsum=0;
+int old[NI+2*np][NJ+2*np],new[NI][NJ],globalsum=0;
 
 int main(int argc, char *argv[]) 
 {
@@ -31,25 +32,34 @@ int main(int argc, char *argv[])
 
   ni = NI + 2;  /* celulas fantasmas na borda  */
   nj = NJ + 2;
-  size = nj*ni/nproc;
+  size = (nj*ni)/nproc;
 
-  if(rank==0){
-    for(int i=0;i<NI;i++){
-      for(int j=0;j<NJ;j++){      
-        old[i][j] = 1;
+  if(rank==0){    
+    for(i=1; i<=NI; i++)
+      {
+        for(j=1; j<=NJ; j++)
+        {
+          old[i][j]=1;
+        }
       }
-    }
   }
   
-  from = rank * ni/nproc;
-  to = ((rank+1) * ni/nproc);
+
+  // if(rank==nproc-1){
+  //   from = rank * ni/nproc;
+  //   to = 0;
+  // }
+  //else{
+    from = rank * ni/nproc;
+    to = ((rank+1) * ni/nproc);
+  //}  
 
   MPI_Scatter(&(old[0][0]),size,MPI_INT,&old[from][0],size,MPI_INT,0,MPI_COMM_WORLD);
   MPI_Scatter(&(new[0][0]),size,MPI_INT,&new[from][0],size,MPI_INT,0,MPI_COMM_WORLD);  
   
-  for(int i=0;i<size;i++){      
-    printf("Rank: %d , %d\n", rank,old[from][i]);      
-  }
+  // for(int i=0;i<size;i++){      
+  //   //printf("Rank: %d ,%d, %d\n", rank,i,old[from][i]);      
+  // }
 
   /* */
   for(n=0; n<NSTEPS; n++)
@@ -62,32 +72,36 @@ int main(int argc, char *argv[])
 
     old[first][0]       = old[last][NJ];
     old[first][NJ+1]    = old[last][1];
-    old[last+1][NJ+1] = old[first+1][1];
-    old[last+1][0]    = old[first+1][NJ];
+    old[last+NI+1][NJ+1] = old[first+1][1];
+    old[last+NI+1][0]    = old[first+1][NJ];
 
     /* cond. contorno para faces direita/esquerda  */
 
-    for(i=from; i<=to; i+=NJ){                
+    for(i=from; i<=ni/nproc; i++){                
       old[i][0]    = old[i][NJ];
       old[i][NJ+1] = old[i][1];
     }
 
-    /* cond. controno face inferior e superior */
-
+    /* cond. controno face inferior e superior */    
     if(rank==0){
-      for(j=1; j<=NJ; j++){
-        //up
-        old[from][j] = old[to][j];
-        old[from+1][j] = old[to+1][j];
-        //last
-        int last= (nproc-1) * ni/nproc;
-        old[from][j] = old[last][j];
-        old[from+1][j] = old[last+1][j];
+      //printf("%d\n", nj);
+      int last= (nproc-1) * ni/nproc;
+      for(j=1; j<=nj; j++){
+        //printf("%d\n", j);
+        //printf("%d\n",sizeof(old[from])/sizeof(int) );
+        //printf("(%d)\n", old[to+1][55]);
+        //printf("(%d)\n", to);
+        //top, from+NI e o topo do pedaco de from
+        old[from+NI][j] = old[to-2][j];
+        old[from+NI+1][j] = old[to-1][j];
+        //bottom
+        old[from][j] = old[last+NI][j];
+        old[from+1][j] = old[last+NI+1][j];
       }
-    }
-    else if(rank==nproc-1){
-      for(j=1; j<=NJ; j++){
-        //first
+    }    
+     else if(rank==nproc-1){
+       for(j=1; j<=nj; j++){
+         //first
         int first=0;
         old[from][j] = old[first][j];
         old[from+1][j] = old[first+1][j];
@@ -98,12 +112,12 @@ int main(int argc, char *argv[])
       }
     }        
     else{
-        for(j=1; j<=NJ; j++){
+        int previous = (rank-1) * ni/nproc;
+        for(j=1; j<=nj; j++){
         //up
-        old[from][j] = old[to][j];
-        old[from+1][j] = old[to+1][j];
-        //down
-        int previous = (rank-1) * ni/nproc;        
+        old[from][j] = old[to-2][j];
+        old[from+1][j] = old[to-1][j];
+        //down/                
         old[from][j] = old[previous][j];
         old[from+1][j] = old[previous+1][j];
         }
@@ -111,7 +125,7 @@ int main(int argc, char *argv[])
 
     // Codigo Paralelo: Trocar elementos da interface paralela
 
-    for(i=from; i<=to; i+=NJ)
+    for(i=from+1; i<=NI/nproc; i++)
     {
       for(j=1; j<=NJ; j++)
       {
@@ -123,8 +137,8 @@ int main(int argc, char *argv[])
       nsum =  old[im][jp] + old[i][jp] + old[ip][jp]
             + old[im][j ]              + old[ip][j ] 
             + old[im][jm] + old[i][jm] + old[ip][jm];
-
-      printf("%d\n", nsum);
+      
+      //printf("%d\n",nsum );
     	  switch(nsum)
         {
           case 3:
@@ -140,8 +154,8 @@ int main(int argc, char *argv[])
     }
 
     /* copia estado  */
-    for(i=from; i<=to; i+=NJ){
-      for(j=1; j<=NJ; j++){
+    for(i=from+1; i<=ni/nproc; i++){
+      for(j=1; j<=nj; j++){
         old[i][j] = new[i][j];
         //printf("%d\n",new[i][j] );
         //printf("i=%d,j=%d,%d\n",i,j,isum );
@@ -151,8 +165,8 @@ int main(int argc, char *argv[])
 
   /*  Conta o número de celulas  vivas no final */
   isum = 0;
-  for(i=from; i<=to; i+=NJ){
-    for(j=1; j<=NJ; j++){
+  for(i=from+1; i<=ni/nproc; i++){
+    for(j=1; j<=nj; j++){
       isum = isum + new[i][j];      
     }
   }  
