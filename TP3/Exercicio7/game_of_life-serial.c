@@ -9,8 +9,8 @@ Versão sequencial
 
 #include <stdlib.h>
 
-#define NI 700        /* tamanho dos array  */
-#define NJ 700
+#define NI 0        /* tamanho dos array  */
+#define NJ 0
 
 #define NSTEPS 500    /* Numero de iteracoes */
 
@@ -39,12 +39,13 @@ int main(int argc, char *argv[])
   {
     for(j=1; j<=NJ; j++)
     {
-       x = rand()/((float)RAND_MAX + 1);
-       if(x<0.5){
-	  old[i][j] = 0;
-       } else {
-	  old[i][j] = 1;
-       }
+   //     x = rand()/((float)RAND_MAX + 1);
+   //     if(x<0.5){
+	  // old[i][j] = 0;
+   //     } else {
+	  // old[i][j] = 1;
+   //     }
+      old[i][j]=1;
     }
   }
 
@@ -115,7 +116,7 @@ int main(int argc, char *argv[])
     for(j=1; j<=NJ; j++){
       isum = isum + new[i][j];
     }
-  }
+  }  
   printf("\n# Celulas Vivas = %d\n", isum);
 
 
