@@ -22,16 +22,39 @@ int main(int argc, char *argv[])
 
   int rank,nproc;
   MPI_Comm_rank(MPI_COMM_WORLD, &rank);
-  MPI_Comm_size(MPI_COMM_WORLD, &nproc);    
+  MPI_Comm_size(MPI_COMM_WORLD, &nproc);     
 
-  int i, j, n, im, ip, jm, jp, ni, nj, nsum, isum;
+  int i, j, n, im, ip, jm, jp, ni, nj, nsum, isum,ri,rj,top,down;
   int **old, **new;  
   float x;
 
   /* alocacao */
 
-  ni = NI + 2;  /* celulas fantasmas na borda  */
+  ni = (NI/nproc) + 2;  /* celulas fantasmas na borda  */
   nj = NJ + 2;
+
+  /*top e down sao os processos cujas matrizes estao acima e abaixo
+    o processo deve se comunicar com esses processos para verificar as fronteiras
+    ultimo processo */
+  if(rank == nproc -1){
+    // recebe o total menos as partes ja distribuidas aos demais processos
+    ni = 2 + NI - (rank*(NI/nproc));
+    top = 0;
+    down = rank-1;
+  }
+  else if(rank==0){
+    top = 1;
+    down = nproc-1;
+  }
+  else{
+    top = rank+1;
+    down = rank-1;
+  }
+
+  //numero de linhas e colunas nao fantasmas da matriz
+  ri = ni -2;
+  rj = nj -2;
+
   old = malloc(ni*sizeof(int*));
   new = malloc(ni*sizeof(int*));
 
@@ -42,9 +65,9 @@ int main(int argc, char *argv[])
 
 /*  inicializando elementos  */
 
-  for(i=1; i<=NI; i++)
+  for(i=1; i<=ri; i++)
   {
-    for(j=1; j<=NJ; j++)
+    for(j=1; j<=rj; j++)
     {
        x = rand()/((float)RAND_MAX + 1);
        if(x<0.5){
@@ -59,25 +82,34 @@ int main(int argc, char *argv[])
   for(n=0; n<NSTEPS; n++)
   {
 
-    /* condicoes de controno para as esquinas do dominio */
-    old[0][0]       = old[NI][NJ];
-    old[0][NJ+1]    = old[NI][1];
-    old[NI+1][NJ+1] = old[1][1];
-    old[NI+1][0]    = old[1][NJ];
-
-    /* cond. contorno para faces direita/esquerda  */
-
-    for(i=1; i<=NI; i++){
-      old[i][0]    = old[i][NJ];
-      old[i][NJ+1] = old[i][1];
+    MPI_Request request[4];
+    MPI_Status status[4];
+    
+    /* cond. contorno para faces direita/esquerda  
+    Como estamos programando em C e nosso dominio esta sendo
+    subdividido em linhas nao precisamos trocar mensagens para obter
+    os elementos que precisamos nessa etapa*/
+    for(i=1; i<=ri; i++){
+      old[i][0]    = old[i][rj];
+      old[i][rj+1] = old[i][1];
     }
 
     /* cond. controno face inferior e superior */
 
-    for(j=1; j<=NJ; j++){
-      old[0][j]    = old[NI][j];
-      old[NI+1][j] = old[1][j];
-    }
+    /*Envio para o processo acima (top) a minha ultima linha,superior,nao fantasma
+      e recebo dele a linha dele nao fantasma a qual deverei sobrepor
+      a minha linha fantasma superior*/
+    MPI_Isend(&old[ri],rj,MPI_INT,top,0,MPI_COMM_WORLD,&request[0]);
+    MPI_Irecv(&old[ri+1],rj,MPI_INT,top,0,MPI_COMM_WORLD,&request[1]);
+
+    /*Envio para o processo abaixo (down) a minha primeira linha,inferior,nao fantasma
+      e recebo dele a linha dele nao fantasma a qual deverei sobrepor
+      a minha linha fantasma superior*/
+    //old[1] contem a primeira linha nao fantasma da matriz do processo
+    MPI_Isend(&old[1],rj,MPI_INT,down,0,MPI_COMM_WORLD,&request[2]);
+    //old[0] contem a primeira linha fantasma da matriz do processo
+    MPI_Irecv(&old[0],rj,MPI_INT,down,0,MPI_COMM_WORLD,&request[3]);    
+    
 
     // Codigo Paralelo: Trocar elementos da interface paralela
 
