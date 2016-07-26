@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
   MPI_Comm_rank(MPI_COMM_WORLD, &rank);
   MPI_Comm_size(MPI_COMM_WORLD, &nproc);     
 
-  int i, j, n, im, ip, jm, jp, ni, nj, nsum, isum,ri,rj,top,down;
+  int i, j, n, im, ip, jm, jp, ni, nj, nsum, isum,ri,rj,top,down,globalsum;
   int **old, **new;  
   float x;
 
@@ -50,6 +50,7 @@ int main(int argc, char *argv[])
     top = rank+1;
     down = rank-1;
   }
+
 
   //numero de linhas e colunas nao fantasmas da matriz
   ri = ni -2;
@@ -82,6 +83,17 @@ int main(int argc, char *argv[])
   for(n=0; n<NSTEPS; n++)
   {
 
+    /* condicoes de contorno para as esquinas do dominio */
+
+    if(rank==0){
+      old[0][0] = old[ri][rj];
+      old[0][rj+1] = old[ri][1];
+    }
+    if(rank==nproc-1){
+      old[ri+1][rj+1] = old[1][1];
+      old[ri+1][0] = old[1][rj];
+    }
+
     MPI_Request request[4];
     MPI_Status status[4];
     
@@ -94,28 +106,28 @@ int main(int argc, char *argv[])
       old[i][rj+1] = old[i][1];
     }
 
-    /* cond. controno face inferior e superior */
-
+    /* cond. controno face inferior e superior */    
     /*Envio para o processo acima (top) a minha ultima linha,superior,nao fantasma
       e recebo dele a linha dele nao fantasma a qual deverei sobrepor
       a minha linha fantasma superior*/
-    MPI_Isend(&old[ri],rj,MPI_INT,top,0,MPI_COMM_WORLD,&request[0]);
-    MPI_Irecv(&old[ri+1],rj,MPI_INT,top,0,MPI_COMM_WORLD,&request[1]);
+    MPI_Isend(old[ri],rj,MPI_INT,top,0,MPI_COMM_WORLD,&request[0]);
+    MPI_Irecv(old[ri+1],rj,MPI_INT,top,0,MPI_COMM_WORLD,&request[1]);
 
     /*Envio para o processo abaixo (down) a minha primeira linha,inferior,nao fantasma
       e recebo dele a linha dele nao fantasma a qual deverei sobrepor
       a minha linha fantasma superior*/
     //old[1] contem a primeira linha nao fantasma da matriz do processo
-    MPI_Isend(&old[1],rj,MPI_INT,down,0,MPI_COMM_WORLD,&request[2]);
+    MPI_Isend(old[1],rj,MPI_INT,down,0,MPI_COMM_WORLD,&request[2]);
     //old[0] contem a primeira linha fantasma da matriz do processo
-    MPI_Irecv(&old[0],rj,MPI_INT,down,0,MPI_COMM_WORLD,&request[3]);    
+    MPI_Irecv(old[0],rj,MPI_INT,down,0,MPI_COMM_WORLD,&request[3]);    
     
 
     // Codigo Paralelo: Trocar elementos da interface paralela
-
-    for(i=1; i<=NI; i++)
+    /*Deve analisar as linhas e as colunas nao fantasmas, ou seja,
+      que nao dependem dos vizinhos*/
+    for(i=2; i<=ri; i++)
     {
-       for(j=1; j<=NJ; j++)
+       for(j=1; j<=rj+1; j++)
        {
     im = i-1;
     ip = i+1;
@@ -139,24 +151,84 @@ int main(int argc, char *argv[])
     }
        }
     }
+    /*Antes de calcularmos as linhas que dependem dos vizinhos
+      devemos possuir todos os valores necessarios*/
+    MPI_Waitall(4,request,status);
+    /*Para o calculo das linhas que dependem dos vizinhos
+    dividiremos em dois blocos. Um deles para o do vizinho
+    de cima (top) e outro para o vizinho de baixo (down)*/
+   //Calculo para as linhas que dependem do vizinho de cima (top)
+
+    i = 1;
+    for(j=1; j<=rj+1; j++)
+    {
+      im = i-1;
+      ip = i+1;
+      jm = j-1;
+      jp = j+1;
+
+      nsum =  old[im][jp] + old[i][jp] + old[ip][jp]
+            + old[im][j ]              + old[ip][j ] 
+            + old[im][jm] + old[i][jm] + old[ip][jm];
+
+      switch(nsum)
+      {
+        case 3:
+          new[i][j] = 1;
+          break;
+        case 2:
+          new[i][j] = old[i][j];
+          break;
+        default:
+          new[i][j] = 0;
+      }
+    }  
+
+ //Calculo para as linhas que dependem do vizinho de baixo (down)
+
+    i = ri;
+    for(j=1; j<=rj+1; j++)
+    {
+      im = i-1;
+      ip = i+1;
+      jm = j-1;
+      jp = j+1;
+
+      nsum =  old[im][jp] + old[i][jp] + old[ip][jp]
+            + old[im][j ]              + old[ip][j ] 
+            + old[im][jm] + old[i][jm] + old[ip][jm];
+
+      switch(nsum)
+      {
+        case 3:
+          new[i][j] = 1;
+          break;
+        case 2:
+          new[i][j] = old[i][j];
+          break;
+        default:
+          new[i][j] = 0;
+      }
+    }  
 
     /* copia estado  */
-    for(i=1; i<=NI; i++){
-      for(j=1; j<=NJ; j++){
-  old[i][j] = new[i][j];
+    for(i=1; i<=ri; i++){
+      for(j=1; j<=rj; j++){
+        old[i][j] = new[i][j];
       }
     }
   }
 
   /*  Conta o número de celulas  vivas no final */
   isum = 0;
-  for(i=1; i<=NI; i++){
-    for(j=1; j<=NJ; j++){
+  for(i=1; i<=ri; i++){
+    for(j=1; j<=rj; j++){
       isum = isum + new[i][j];
     }
   }
   //printf("\n# Celulas Vivas = %d\n", isum);
 
+  MPI_Reduce(&isum,&globalsum,1,MPI_INT,MPI_SUM,0,MPI_COMM_WORLD);
 
   for(i=0; i<ni; i++){
     free(old[i]); 
@@ -171,10 +243,16 @@ int main(int argc, char *argv[])
   char result[256];
   sprintf(outfilename, "found.data_%d", rank);  
   outfile = fopen(outfilename, "w");
-  fprintf(outfile, "Olá eu sou a tarefa de rank: %d\n", rank);
-  fprintf(outfile, "O número total de processos é: %d\n", nproc);
-  sprintf(result,"# Celulas Vivas = %d\n", isum);  
-  fprintf(outfile, "%s\n", result);
+  if(rank==0){
+    fprintf(outfile, "Olá eu sou a tarefa de rank: %d\n", rank);
+    fprintf(outfile, "O número total de processos é: %d\n", nproc);
+    sprintf(result,"# Celulas Vivas = %d\n", globalsum);  
+    fprintf(outfile, "%s\n", result);    
+  }
+  else{
+    fprintf(outfile, "Olá eu sou a tarefa de rank: %d\n", rank);    
+    fprintf(outfile, "%s\n", result);      
+  }
   fclose(outfile);
 
 
